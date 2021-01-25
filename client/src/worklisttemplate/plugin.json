@@ -1,0 +1,91 @@
+{
+    "name": "worklisttemplate",
+    "description": "worklisttemplate",
+    "i18n": "worklisttemplate/i18n/i18n",
+    "requires": {
+        "services": [
+        	"wizard",
+            "template",
+            "templateCustomizationStep",
+            "usernotification",
+	        "log",
+	        "command",
+	        "commandGroup",
+	        "filesystem.documentProvider",
+	        "projectType",
+	        "setting.project",
+	        "ui5projecthandler"
+        ]
+    },
+    "provides": {
+        "services": {
+	        "PanelStep": {
+                "implements": "sap.watt.common.service.ui.WizardStep",
+                "module": "worklisttemplate/service/PanelStep"
+            }
+        },
+        "interfaces": {}
+    },
+    "configures": {
+        "services": {
+            "template:templates": [
+                {
+                    "id": "WorkListMTA.worklist",
+                    "template": "worklisttemplate/worklist/worklist",
+                    "name": "{i18n>Config_template_worklist_name}",
+                    "description": "{i18n>Config_template_worklist_desc}",
+                    "path": "worklisttemplate/worklist",
+                    "icon": "sap-icon://detail-view",
+                    "internalOnly": false,
+                    "category": "SAP.Fiori.Application",
+                    "wizardSteps": [
+                        "templateCustomizationStep"
+                    ],
+                    "templateType": "project",
+                    "requiresNeoApp": true,
+                    "version": "1.0.0",
+                    "orderPriority": 1000,
+                    "requiredTemplates": [
+                        {
+                            "id": "ui5template.basicSAPUI5ApplicationProjectCommon",
+                            "version": "1.32.0"
+                        }
+                    ],
+                    "modelRoot": "basicSAPUI5ApplicationProject",
+                    "modelFileName": "model.json",
+                    "fileName": "resources.zip",
+                    "previewImage": "image/SAPUI5-preview.png"
+                },
+                {
+                    "id": "WorkListMTA.bindingtemplate",
+                    "template": "worklisttemplate/bindingtemplate/bindingtemplate",
+                    "name": "{i18n>Config_template_bindingtemplate_name}",
+                    "description": "{i18n>Config_template_bindingtemplate_desc}",
+                    "path": "worklisttemplate/bindingtemplate",
+                    "icon": "sap-icon://detail-view",
+                    "internalOnly": false,
+                    "category": "SAP.Fiori.Application",
+                    "wizardSteps": [
+                    	"PanelStep",
+                        "templateCustomizationStep"
+                    ],
+                    "templateType": "project",
+                    "requiresNeoApp": true,
+                    "version": "1.0.0",
+                    "orderPriority": 1000,
+                    "requiredTemplates": [
+                        {
+                            "id": "ui5template.basicSAPUI5ApplicationProjectCommon",
+                            "version": "1.32.0"
+                        }
+                    ],
+                    "modelRoot": "basicSAPUI5ApplicationProject",
+                    "modelFileName": "model.json",
+                    "fileName": "resources.zip",
+                    "previewImage": "image/SAPUI5-preview.png"
+                }
+            ]
+        }
+    },
+    "subscribes": {}
+}
