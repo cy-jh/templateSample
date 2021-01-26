@@ -10,6 +10,8 @@ define(["sap.watt.ideplatform.template/ui/wizard/WizardStepContent",
 		init: function () {
 			var oPageStepContent = this._createPageContent();
 			this.addContent(oPageStepContent);
+
+			this._registeHandleBarRfcName();
 		},
 		renderer: {},
 		onBeforeRendering: function () {
@@ -26,43 +28,10 @@ define(["sap.watt.ideplatform.template/ui/wizard/WizardStepContent",
 				class:"sapUiContentPadding"
 			});
 			
-			// var oHBox = new sap.m.HBox({
-			// 	width:"100%",
-			// 	class:"sapUiContentPadding"
-			// });
-			// var oLabel = new sap.m.Label({
-			// 	text: "Service명을 입력하세요."
-			// });
-			// var oInput = new sap.m.Input({
-			// 	value:"{/CustomInputValue}",
-			// 	change: function() { 
-			// 		this.fireValidation({
-			// 			isValid: true
-			// 		});
-			// 	}.bind(this)
-			// });
-			// var that = this;
-			// var oBtn = new sap.m.Button({
-			// 	text: "테스트",
-			// 	press: function(){
-			// 		var oModel = new sap.ui.model.json.JSONModel();
-			// 		var jsonTemplate = new sap.ui.model.json.JSONModel(jQuery.sap.getModulePath("test/data", "/jsonData.json"));
-			// 		jsonTemplate.attachRequestCompleted(function(oJsonEvent){  
-			// 			oModel= oJsonEvent.getSource(); 
-			// 			// that.getView().setModel(oModel);
-			// 		});
-			// 	}
-			// });
+			// Input Form Grid
+			var oPopupYNGrid = new sap.ui.layout.Grid();
+			var oPopupNameGrid = new sap.ui.layout.Grid();
 			
-			// oHBox.addItem(oLabel);
-			// oHBox.addItem(oInput);
-			// oHBox.addItem(oBtn);
-			
-			
-			var oHBoxForPopup = new sap.m.HBox({
-				width:"100%",
-				class:"sapUiContentPadding"
-			});
 			var oLabelForPopup = new sap.m.Label({
 				text: "popup을 생성하시겠습니까?"
 			});
@@ -80,18 +49,31 @@ define(["sap.watt.ideplatform.template/ui/wizard/WizardStepContent",
 				],
 				change: function(oEvent) {
 					var oModel = this.getModel();
-					var aHBoxItems = oEvent.getSource().getParent().getItems();
+					var aGrids = oEvent.getSource().getParent().getParent().getContent();
 					
 					if(oEvent.getSource().getSelectedKey() === "Y") {
-						aHBoxItems[2].setVisible(true); //oLabelForPopup2
-						aHBoxItems[3].setVisible(true); //oInputForPopup
+						aGrids[1].setVisible(true);
 						oModel.setProperty("/basicSAPUI5ApplicationProject/parameters/popupYN", true);
+						
+						var sPopupName = oModel.getProperty("/basicSAPUI5ApplicationProject/parameters/popupName");
+						if(!sPopupName) {
+							this.fireValidation({
+								isValid: false
+							});
+						} else {
+							this.fireValidation({
+								isValid: true
+							});
+						}
 					} else {
-						aHBoxItems[2].setVisible(false); //oLabelForPopup2
-						aHBoxItems[3].setVisible(false); //oInputForPopup
+						aGrids[1].setVisible(false);
 						oModel.setProperty("/basicSAPUI5ApplicationProject/parameters/popupYN", false);
+						
+						this.fireValidation({
+							isValid: true
+						});
 					}
-				}
+				}.bind(this)
 				// selectedkey : "{/popupYN}"
 			});
 			
@@ -100,26 +82,47 @@ define(["sap.watt.ideplatform.template/ui/wizard/WizardStepContent",
 			});
 			var oInputForPopup = new sap.m.Input({
 				value:"{/popupName}",
-				change: function(oEvent) {
+				liveChange: function(oEvent) {
+					var oInput = oEvent.getSource();
+					var sValue = oInput.getValue();
+					// var sValue = oInput.getValue().replace(/^[a-zA-Z_]+[a-zA-Z0-9\\-_]*$/, "");
+					
+					if(!sValue.trim()) {
+						oInput.setValueState("Error");
+						
+						this.fireValidation({
+							isValid: false
+						});
+					} else {
+						oInput.setValueState("None");
+						
+						this.fireValidation({
+							isValid: true
+						});
+					}
+					
 					var oModel = this.getModel();
-					oModel.setProperty("/basicSAPUI5ApplicationProject/parameters/popupName", oEvent.getSource().getValue());
-					this.fireValidation({
-						isValid: true
-					});
+					oModel.setProperty("/basicSAPUI5ApplicationProject/parameters/popupName", sValue);
 				}.bind(this)
 			});
 			
 			
 			// popup
-			oHBoxForPopup.addItem(oLabelForPopup);
-			oHBoxForPopup.addItem(oPopupYNSelect);
-			oHBoxForPopup.addItem(oLabelForPopup2);
-			oHBoxForPopup.addItem(oInputForPopup);
+			oPopupYNGrid.addContent(oLabelForPopup);
+			oPopupYNGrid.addContent(oPopupYNSelect);
+			oPopupNameGrid.addContent(oLabelForPopup2);
+			oPopupNameGrid.addContent(oInputForPopup);
 			
-			// lVLayout.addContent(oHBox);
-			lVLayout.addContent(oHBoxForPopup);
+			lVLayout.addContent(oPopupYNGrid);
+			lVLayout.addContent(oPopupNameGrid);
 			
 			return lVLayout;
+		},
+		
+		_registeHandleBarRfcName : function() {
+			HandleBar.registerHelper('rfcName', function(options) {
+				
+			})
 		},
 		
 		
