@@ -4,17 +4,18 @@
 			<pages>
 				<Page {{#if isSAPUI5160Selected}}id="page"{{/if}} title="{i18n>title}">
 					<content>
-						{{#if basicSAPUI5ApplicationProject.parameters.isSearchPanel.value.name}} <Panel> {{/if}}
+						{{#if basicSAPUI5ApplicationProject.parameters.isSearchPanel.value.value}}<Panel>{{/if}}
 							{{#if basicSAPUI5ApplicationProject.parameters.iSearchSetCount1.value.value}}<HBox>{{/if}}
-								
 								{{#if basicSAPUI5ApplicationProject.parameters.iSearchSetCount1.value.value}}<Label text="label 1" />{{/if}}
 								{{#if basicSAPUI5ApplicationProject.parameters.iSearchSetCount1.value.value}}<Input value="input 1" />{{/if}}
+							
 									
 								{{#if basicSAPUI5ApplicationProject.parameters.iSearchSetCount2.value.value}}<Label text="label 2" />{{/if}}
 								{{#if basicSAPUI5ApplicationProject.parameters.iSearchSetCount2.value.value}}<Input value="input 2" />{{/if}}
 								
 							{{#if basicSAPUI5ApplicationProject.parameters.iSearchSetCount1.value.value}}</HBox>{{/if}}
 						{{#if basicSAPUI5ApplicationProject.parameters.isSearchPanel.value.value}}</Panel>{{/if}}
+						
 						{{#if basicSAPUI5ApplicationProject.parameters.popupYN}}<Button text="Open Dialog" press=".onOpenDialog" />{{/if}}
 					</content>
 				</Page>

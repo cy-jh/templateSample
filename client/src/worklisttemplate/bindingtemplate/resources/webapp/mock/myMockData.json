@@ -1,0 +1,53 @@
+{
+	"mockDataList" : [
+		{
+			"DEMO_COL_NAME": "James",
+			"DEMO_COL_AGE": "34",
+			"DEMO_COL_LANG": "EN",
+			"DEMO_COL_COMPANY": "CY",
+			"DEMO_COL_DEVLANG": "UI5"
+		},
+		{
+			"DEMO_COL_NAME": "김영수",
+			"DEMO_COL_AGE": "36",
+			"DEMO_COL_LANG": "KR",
+			"DEMO_COL_COMPANY": "CY",
+			"DEMO_COL_DEVLANG": "UI5"
+		},
+		{
+			"DEMO_COL_NAME": "박재환",
+			"DEMO_COL_AGE": "23",
+			"DEMO_COL_LANG": "KR",
+			"DEMO_COL_COMPANY": "CY",
+			"DEMO_COL_DEVLANG": "ABAP"
+		},
+		{
+			"DEMO_COL_NAME": "홍수연",
+			"DEMO_COL_AGE": "25",
+			"DEMO_COL_LANG": "KR",
+			"DEMO_COL_COMPANY": "CY",
+			"DEMO_COL_DEVLANG": "ABAP"
+		},
+		{
+			"DEMO_COL_NAME": "김병호",
+			"DEMO_COL_AGE": "23",
+			"DEMO_COL_LANG": "KR",
+			"DEMO_COL_COMPANY": "CY",
+			"DEMO_COL_DEVLANG": "JAVA"
+		},
+		{
+			"DEMO_COL_NAME": "Thomas",
+			"DEMO_COL_AGE": "33",
+			"DEMO_COL_LANG": "EN",
+			"DEMO_COL_COMPANY": "SAP",
+			"DEMO_COL_DEVLANG": "UI5"
+		},
+		{
+			"DEMO_COL_NAME": "최재훈",
+			"DEMO_COL_AGE": "29",
+			"DEMO_COL_LANG": "KR",
+			"DEMO_COL_COMPANY": "CY",
+			"DEMO_COL_DEVLANG": "UI5"
+		}
+	]
+}

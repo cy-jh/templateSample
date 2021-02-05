@@ -9,6 +9,8 @@
             "templateCustomizationStep",
             "usernotification",
 	        "log",
+	        "perspective",
+	        "content",
 	        "command",
 	        "commandGroup",
 	        "filesystem.documentProvider",
@@ -22,6 +24,10 @@
 	        "PanelStep": {
                 "implements": "sap.watt.common.service.ui.WizardStep",
                 "module": "worklisttemplate/service/PanelStep"
+            },
+            "HBoxStep" : {
+            	"implements": "sap.watt.common.service.ui.WizardStep",
+                "module": "worklisttemplate/service/HBoxStep"
             }
         },
         "interfaces": {}
@@ -54,7 +60,7 @@
                     "modelRoot": "basicSAPUI5ApplicationProject",
                     "modelFileName": "model.json",
                     "fileName": "resources.zip",
-                    "previewImage": "image/SAPUI5-preview.png"
+                    "previewImage": "image/thumbnail.png"
                 },
                 {
                     "id": "WorkListMTA.bindingtemplate",
@@ -67,6 +73,7 @@
                     "category": "SAP.Fiori.Application",
                     "wizardSteps": [
                     	"PanelStep",
+                    	"HBoxStep",
                         "templateCustomizationStep"
                     ],
                     "templateType": "project",
@@ -82,7 +89,7 @@
                     "modelRoot": "basicSAPUI5ApplicationProject",
                     "modelFileName": "model.json",
                     "fileName": "resources.zip",
-                    "previewImage": "image/SAPUI5-preview.png"
+                    "previewImage": "image/thumbnail.png"
                 }
             ]
         }

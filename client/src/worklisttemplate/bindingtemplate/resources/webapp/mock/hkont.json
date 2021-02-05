@@ -1,0 +1,2662 @@
+{
+	"isValidationSAPLogonTicket": true,
+	"PT_HKONT": null,
+	"PT_RECENT": [{
+		"CODE": "B1020020",
+		"bpfIndex": 0,
+		"DESCR": "Manage. Innovation"
+	}, {
+		"CODE": "B10CH0030",
+		"bpfIndex": 1,
+		"DESCR": "재경팀(경리)"
+	}, {
+		"CODE": "B101000104",
+		"bpfIndex": 2,
+		"DESCR": "Hannam-dong Building"
+	}],
+	"PT_CCTR": [{
+		"SPRAS": "E",
+		"KTEXT": "SS Leports center",
+		"MANDT": "100",
+		"KOSTL": "B101000107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SS LEPORTS CENTER",
+		"bpfIndex": 0,
+		"KOKRS": "B100",
+		"LTEXT": "Samsung Leports center"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "CI Group_DEL",
+		"MANDT": "100",
+		"KOSTL": "B102000107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CI GROUP_DEL",
+		"bpfIndex": 1,
+		"KOKRS": "B100",
+		"LTEXT": "CI Group_DEL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Food&Resources_DEL",
+		"MANDT": "100",
+		"KOSTL": "B1020107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FOOD&RESOURCES_DEL",
+		"bpfIndex": 2,
+		"KOKRS": "B100",
+		"LTEXT": "Food&Resources_DEL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Industrial Fuel_DEL",
+		"MANDT": "100",
+		"KOSTL": "B103100107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INDUSTRIAL FUEL_DEL",
+		"bpfIndex": 3,
+		"KOKRS": "B100",
+		"LTEXT": "Industrial Fuel_DEL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "QSSC Marketing_Dummy",
+		"MANDT": "100",
+		"KOSTL": "B1031070",
+		"DATBI": "9999.12.31",
+		"MCTXT": "QSSC MARKETING_DUMMY",
+		"bpfIndex": 4,
+		"KOKRS": "B100",
+		"LTEXT": "QSSC Marketing_Dummy"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "QSSC Production_Dumm",
+		"MANDT": "100",
+		"KOSTL": "B1031071",
+		"DATBI": "9999.12.31",
+		"MCTXT": "QSSC PRODUCTION_DUMM",
+		"bpfIndex": 5,
+		"KOKRS": "B100",
+		"LTEXT": "QSSC Production_Dummy"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SCTAI",
+		"MANDT": "100",
+		"KOSTL": "B1031072",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SCTAI",
+		"bpfIndex": 6,
+		"KOKRS": "B100",
+		"LTEXT": "SCTAI"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "KST",
+		"MANDT": "100",
+		"KOSTL": "B1031076",
+		"DATBI": "9999.12.31",
+		"MCTXT": "KST",
+		"bpfIndex": 7,
+		"KOKRS": "B100",
+		"LTEXT": "KST"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SCNT Power Kelar",
+		"MANDT": "100",
+		"KOSTL": "B103107601",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SCNT POWER KELAR",
+		"bpfIndex": 8,
+		"KOKRS": "B100",
+		"LTEXT": "SCNT Power Kelar"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "KMS",
+		"MANDT": "100",
+		"KOSTL": "B1031077",
+		"DATBI": "9999.12.31",
+		"MCTXT": "KMS",
+		"bpfIndex": 9,
+		"KOKRS": "B100",
+		"LTEXT": "KMS"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Corp. Development",
+		"MANDT": "100",
+		"KOSTL": "B1031078",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CORP. DEVELOPMENT",
+		"bpfIndex": 10,
+		"KOKRS": "B100",
+		"LTEXT": "Corp. Development"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Solar(SCM)",
+		"MANDT": "100",
+		"KOSTL": "B103107801",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SOLAR(SCM)",
+		"bpfIndex": 11,
+		"KOKRS": "B100",
+		"LTEXT": "Solar(SCM)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Industrial Materials",
+		"MANDT": "100",
+		"KOSTL": "B103107802",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INDUSTRIAL MATERIALS",
+		"bpfIndex": 12,
+		"KOKRS": "B100",
+		"LTEXT": "Industrial Materials"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "N. America Project",
+		"MANDT": "100",
+		"KOSTL": "B1031079",
+		"DATBI": "9999.12.31",
+		"MCTXT": "N. AMERICA PROJECT",
+		"bpfIndex": 13,
+		"KOKRS": "B100",
+		"LTEXT": "N. America Project"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Power Project 1",
+		"MANDT": "100",
+		"KOSTL": "B103107901",
+		"DATBI": "9999.12.31",
+		"MCTXT": "POWER PROJECT 1",
+		"bpfIndex": 14,
+		"KOKRS": "B100",
+		"LTEXT": "Power Project 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Power Project 2",
+		"MANDT": "100",
+		"KOSTL": "B103107902",
+		"DATBI": "9999.12.31",
+		"MCTXT": "POWER PROJECT 2",
+		"bpfIndex": 15,
+		"KOKRS": "B100",
+		"LTEXT": "Power Project 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Infra1",
+		"MANDT": "100",
+		"KOSTL": "B103107903",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INFRA1",
+		"bpfIndex": 16,
+		"KOKRS": "B100",
+		"LTEXT": "Infra1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Infra2",
+		"MANDT": "100",
+		"KOSTL": "B103107904",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INFRA2",
+		"bpfIndex": 17,
+		"KOKRS": "B100",
+		"LTEXT": "Infra2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Plant 1",
+		"MANDT": "100",
+		"KOSTL": "B103107905",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PLANT 1",
+		"bpfIndex": 18,
+		"KOKRS": "B100",
+		"LTEXT": "Plant 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Plant 2",
+		"MANDT": "100",
+		"KOSTL": "B103107906",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PLANT 2",
+		"bpfIndex": 19,
+		"KOKRS": "B100",
+		"LTEXT": "Plant 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Ship & offshore 1",
+		"MANDT": "100",
+		"KOSTL": "B103107907",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SHIP & OFFSHORE 1",
+		"bpfIndex": 20,
+		"KOKRS": "B100",
+		"LTEXT": "Ship & offshore 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Ship & offshore 2",
+		"MANDT": "100",
+		"KOSTL": "B103107908",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SHIP & OFFSHORE 2",
+		"bpfIndex": 21,
+		"KOKRS": "B100",
+		"LTEXT": "Ship & offshore 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Solluce Romania",
+		"MANDT": "100",
+		"KOSTL": "B104100107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SOLLUCE ROMANIA",
+		"bpfIndex": 22,
+		"KOKRS": "B100",
+		"LTEXT": "Solluce Romania"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Inorganic Chem.(CD)",
+		"MANDT": "100",
+		"KOSTL": "B106201107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INORGANIC CHEM.(CD)",
+		"bpfIndex": 23,
+		"KOKRS": "B100",
+		"LTEXT": "Inorganic Chem.(CD)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Consumables",
+		"MANDT": "100",
+		"KOSTL": "B106400107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CONSUMABLES",
+		"bpfIndex": 24,
+		"KOKRS": "B100",
+		"LTEXT": "Consumables"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "RHQ_DEL",
+		"MANDT": "100",
+		"KOSTL": "B1071001",
+		"DATBI": "9999.12.31",
+		"MCTXT": "RHQ_DEL",
+		"bpfIndex": 25,
+		"KOKRS": "B100",
+		"LTEXT": "RHQ_DEL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "RHQ",
+		"MANDT": "100",
+		"KOSTL": "B107100101",
+		"DATBI": "9999.12.31",
+		"MCTXT": "RHQ",
+		"bpfIndex": 26,
+		"KOKRS": "B100",
+		"LTEXT": "RHQ"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SE Asia&Ocea RHQ_X",
+		"MANDT": "100",
+		"KOSTL": "B10710011X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SE ASIA&OCEA RHQ_X",
+		"bpfIndex": 27,
+		"KOKRS": "B100",
+		"LTEXT": "SE Asia&Ocea RHQ_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "RHQ Biz Plan_DEL",
+		"MANDT": "100",
+		"KOSTL": "B1071002",
+		"DATBI": "9999.12.31",
+		"MCTXT": "RHQ BIZ PLAN_DEL",
+		"bpfIndex": 28,
+		"KOKRS": "B100",
+		"LTEXT": "RHQ Biz Plan_DEL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "RHQ Biz Plan",
+		"MANDT": "100",
+		"KOSTL": "B107100201",
+		"DATBI": "9999.12.31",
+		"MCTXT": "RHQ BIZ PLAN",
+		"bpfIndex": 29,
+		"KOKRS": "B100",
+		"LTEXT": "RHQ Biz Plan"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SE Asia&Ocea RHQ_Biz",
+		"MANDT": "100",
+		"KOSTL": "B10710021X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SE ASIA&OCEA RHQ_BIZ",
+		"bpfIndex": 30,
+		"KOKRS": "B100",
+		"LTEXT": "SE Asia&Ocea RHQ_BizPlan_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "RHQ Admin_DEL",
+		"MANDT": "100",
+		"KOSTL": "B1071003",
+		"DATBI": "9999.12.31",
+		"MCTXT": "RHQ ADMIN_DEL",
+		"bpfIndex": 31,
+		"KOKRS": "B100",
+		"LTEXT": "RHQ Admin_DEL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "RHQ Admin",
+		"MANDT": "100",
+		"KOSTL": "B107100301",
+		"DATBI": "9999.12.31",
+		"MCTXT": "RHQ ADMIN",
+		"bpfIndex": 32,
+		"KOKRS": "B100",
+		"LTEXT": "RHQ Admin"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SE Asia&Ocea RHQ_Adm",
+		"MANDT": "100",
+		"KOSTL": "B10710031X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SE ASIA&OCEA RHQ_ADM",
+		"bpfIndex": 33,
+		"KOKRS": "B100",
+		"LTEXT": "SE Asia&Ocea RHQ_Admin_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Jakarta Office",
+		"MANDT": "100",
+		"KOSTL": "B1071004",
+		"DATBI": "9999.12.31",
+		"MCTXT": "JAKARTA OFFICE",
+		"bpfIndex": 34,
+		"KOKRS": "B100",
+		"LTEXT": "Jakarta Office"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SC_Jakarta Office_X",
+		"MANDT": "100",
+		"KOSTL": "B1071004X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SC_JAKARTA OFFICE_X",
+		"bpfIndex": 35,
+		"KOKRS": "B100",
+		"LTEXT": "SC_Jakarta Office_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "President",
+		"MANDT": "100",
+		"KOSTL": "B1072001",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PRESIDENT",
+		"bpfIndex": 36,
+		"KOKRS": "B100",
+		"LTEXT": "President"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Managing Director",
+		"MANDT": "100",
+		"KOSTL": "B107200101",
+		"DATBI": "9999.12.31",
+		"MCTXT": "MANAGING DIRECTOR",
+		"bpfIndex": 37,
+		"KOKRS": "B100",
+		"LTEXT": "Managing Director"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SKYWORLD",
+		"MANDT": "100",
+		"KOSTL": "B107200102",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SKYWORLD",
+		"bpfIndex": 38,
+		"KOKRS": "B100",
+		"LTEXT": "SKYWORLD"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SNG",
+		"MANDT": "100",
+		"KOSTL": "B107200103",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SNG",
+		"bpfIndex": 39,
+		"KOKRS": "B100",
+		"LTEXT": "SNG"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Ganda",
+		"MANDT": "100",
+		"KOSTL": "B107200104",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GANDA",
+		"bpfIndex": 40,
+		"KOKRS": "B100",
+		"LTEXT": "Ganda"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Inecda",
+		"MANDT": "100",
+		"KOSTL": "B107200105",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INECDA",
+		"bpfIndex": 41,
+		"KOKRS": "B100",
+		"LTEXT": "Inecda"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SSCT",
+		"MANDT": "100",
+		"KOSTL": "B107200106",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SSCT",
+		"bpfIndex": 42,
+		"KOKRS": "B100",
+		"LTEXT": "SSCT"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "CBSA",
+		"MANDT": "100",
+		"KOSTL": "B107200107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CBSA",
+		"bpfIndex": 43,
+		"KOKRS": "B100",
+		"LTEXT": "CBSA"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SLHL",
+		"MANDT": "100",
+		"KOSTL": "B107200108",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SLHL",
+		"bpfIndex": 44,
+		"KOKRS": "B100",
+		"LTEXT": "SLHL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "S-Print",
+		"MANDT": "100",
+		"KOSTL": "B107200109",
+		"DATBI": "9999.12.31",
+		"MCTXT": "S-PRINT",
+		"bpfIndex": 45,
+		"KOKRS": "B100",
+		"LTEXT": "S-Print"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Sydney Office_DEL",
+		"MANDT": "100",
+		"KOSTL": "B107200110",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SYDNEY OFFICE_DEL",
+		"bpfIndex": 46,
+		"KOKRS": "B100",
+		"LTEXT": "Sydney Office_DEL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Jakarta Samarindah",
+		"MANDT": "100",
+		"KOSTL": "B107200111",
+		"DATBI": "9999.12.31",
+		"MCTXT": "JAKARTA SAMARINDAH",
+		"bpfIndex": 47,
+		"KOKRS": "B100",
+		"LTEXT": "Jakarta Samarindah"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Coal 1",
+		"MANDT": "100",
+		"KOSTL": "B107200112",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COAL 1",
+		"bpfIndex": 48,
+		"KOKRS": "B100",
+		"LTEXT": "Coal 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Coal 2",
+		"MANDT": "100",
+		"KOSTL": "B107200113",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COAL 2",
+		"bpfIndex": 49,
+		"KOKRS": "B100",
+		"LTEXT": "Coal 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Industrial Fuel",
+		"MANDT": "100",
+		"KOSTL": "B107200114",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INDUSTRIAL FUEL",
+		"bpfIndex": 50,
+		"KOKRS": "B100",
+		"LTEXT": "Industrial Fuel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Textile Export",
+		"MANDT": "100",
+		"KOSTL": "B107200115",
+		"DATBI": "9999.12.31",
+		"MCTXT": "TEXTILE EXPORT",
+		"bpfIndex": 51,
+		"KOKRS": "B100",
+		"LTEXT": "Textile Export"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Sourcing",
+		"MANDT": "100",
+		"KOSTL": "B107200116",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SOURCING",
+		"bpfIndex": 52,
+		"KOKRS": "B100",
+		"LTEXT": "Sourcing"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Indonesia Trading",
+		"MANDT": "100",
+		"KOSTL": "B107200117",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INDONESIA TRADING",
+		"bpfIndex": 53,
+		"KOKRS": "B100",
+		"LTEXT": "Indonesia Trading"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Copper(Concent)",
+		"MANDT": "100",
+		"KOSTL": "B107200118",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COPPER(CONCENT)",
+		"bpfIndex": 54,
+		"KOKRS": "B100",
+		"LTEXT": "Copper(Concent)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Copper(Cathode)",
+		"MANDT": "100",
+		"KOSTL": "B107200119",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COPPER(CATHODE)",
+		"bpfIndex": 55,
+		"KOKRS": "B100",
+		"LTEXT": "Copper(Cathode)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "S-ERP FEE SETTLEMENT",
+		"MANDT": "100",
+		"KOSTL": "B107200121",
+		"DATBI": "9999.12.31",
+		"MCTXT": "S-ERP FEE SETTLEMENT",
+		"bpfIndex": 56,
+		"KOKRS": "B100",
+		"LTEXT": "S-ERP FEE SETTLEMENT"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SC_Sydney Office_X",
+		"MANDT": "100",
+		"KOSTL": "B1072001AX",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SC_SYDNEY OFFICE_X",
+		"bpfIndex": 57,
+		"KOKRS": "B100",
+		"LTEXT": "SC_Sydney Office_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SC_Jakarta Samar_X",
+		"MANDT": "100",
+		"KOSTL": "B1072001BX",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SC_JAKARTA SAMAR_X",
+		"bpfIndex": 58,
+		"KOKRS": "B100",
+		"LTEXT": "SC_Jakarta Samar_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Admin. & Accts.",
+		"MANDT": "100",
+		"KOSTL": "B1072002",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ADMIN. & ACCTS.",
+		"bpfIndex": 59,
+		"KOKRS": "B100",
+		"LTEXT": "Admin. & Accts."
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Biz Plan & Develop",
+		"MANDT": "100",
+		"KOSTL": "B107200201",
+		"DATBI": "9999.12.31",
+		"MCTXT": "BIZ PLAN & DEVELOP",
+		"bpfIndex": 60,
+		"KOKRS": "B100",
+		"LTEXT": "Biz Plan & Develop"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "FTC",
+		"MANDT": "100",
+		"KOSTL": "B1072003",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FTC",
+		"bpfIndex": 61,
+		"KOKRS": "B100",
+		"LTEXT": "FTC"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Steel Common",
+		"MANDT": "100",
+		"KOSTL": "B1072004",
+		"DATBI": "9999.12.31",
+		"MCTXT": "STEEL COMMON",
+		"bpfIndex": 62,
+		"KOKRS": "B100",
+		"LTEXT": "Steel Common"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "CR Steel1",
+		"MANDT": "100",
+		"KOSTL": "B107200401",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CR STEEL1",
+		"bpfIndex": 63,
+		"KOKRS": "B100",
+		"LTEXT": "CR Steel1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electrical Steel",
+		"MANDT": "100",
+		"KOSTL": "B107200402",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRICAL STEEL",
+		"bpfIndex": 64,
+		"KOKRS": "B100",
+		"LTEXT": "Electrical Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Auto Steel",
+		"MANDT": "100",
+		"KOSTL": "B107200403",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AUTO STEEL",
+		"bpfIndex": 65,
+		"KOKRS": "B100",
+		"LTEXT": "Auto Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "HR Steel",
+		"MANDT": "100",
+		"KOSTL": "B107200404",
+		"DATBI": "9999.12.31",
+		"MCTXT": "HR STEEL",
+		"bpfIndex": 66,
+		"KOKRS": "B100",
+		"LTEXT": "HR Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Steel Plate",
+		"MANDT": "100",
+		"KOSTL": "B107200405",
+		"DATBI": "9999.12.31",
+		"MCTXT": "STEEL PLATE",
+		"bpfIndex": 67,
+		"KOKRS": "B100",
+		"LTEXT": "Steel Plate"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Flat Steel",
+		"MANDT": "100",
+		"KOSTL": "B107200406",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FLAT STEEL",
+		"bpfIndex": 68,
+		"KOKRS": "B100",
+		"LTEXT": "Flat Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "MSSC",
+		"MANDT": "100",
+		"KOSTL": "B107200408",
+		"DATBI": "9999.12.31",
+		"MCTXT": "MSSC",
+		"bpfIndex": 69,
+		"KOKRS": "B100",
+		"LTEXT": "MSSC"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "CR Steel2",
+		"MANDT": "100",
+		"KOSTL": "B107200409",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CR STEEL2",
+		"bpfIndex": 70,
+		"KOKRS": "B100",
+		"LTEXT": "CR Steel2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Stainless Steel",
+		"MANDT": "100",
+		"KOSTL": "B107200410",
+		"DATBI": "9999.12.31",
+		"MCTXT": "STAINLESS STEEL",
+		"bpfIndex": 71,
+		"KOKRS": "B100",
+		"LTEXT": "Stainless Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Auto Steel2",
+		"MANDT": "100",
+		"KOSTL": "B107200411",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AUTO STEEL2",
+		"bpfIndex": 72,
+		"KOKRS": "B100",
+		"LTEXT": "Auto Steel2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Energy Steel",
+		"MANDT": "100",
+		"KOSTL": "B107200412",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ENERGY STEEL",
+		"bpfIndex": 73,
+		"KOKRS": "B100",
+		"LTEXT": "Energy Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Semi Finished Steel",
+		"MANDT": "100",
+		"KOSTL": "B107200413",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SEMI FINISHED STEEL",
+		"bpfIndex": 74,
+		"KOKRS": "B100",
+		"LTEXT": "Semi Finished Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Flat Steel2",
+		"MANDT": "100",
+		"KOSTL": "B107200414",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FLAT STEEL2",
+		"bpfIndex": 75,
+		"KOKRS": "B100",
+		"LTEXT": "Flat Steel2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Asia",
+		"MANDT": "100",
+		"KOSTL": "B107200415",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ASIA",
+		"bpfIndex": 76,
+		"KOKRS": "B100",
+		"LTEXT": "Asia"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Americas 1",
+		"MANDT": "100",
+		"KOSTL": "B107200416",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AMERICAS 1",
+		"bpfIndex": 77,
+		"KOKRS": "B100",
+		"LTEXT": "Americas 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Americas 2",
+		"MANDT": "100",
+		"KOSTL": "B107200417",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AMERICAS 2",
+		"bpfIndex": 78,
+		"KOKRS": "B100",
+		"LTEXT": "Americas 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Europe",
+		"MANDT": "100",
+		"KOSTL": "B107200418",
+		"DATBI": "9999.12.31",
+		"MCTXT": "EUROPE",
+		"bpfIndex": 79,
+		"KOKRS": "B100",
+		"LTEXT": "Europe"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Africa & Mid East",
+		"MANDT": "100",
+		"KOSTL": "B107200419",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AFRICA & MID EAST",
+		"bpfIndex": 80,
+		"KOKRS": "B100",
+		"LTEXT": "Africa & Mid East"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Biz Develp.TF(Sales)",
+		"MANDT": "100",
+		"KOSTL": "B107200420",
+		"DATBI": "9999.12.31",
+		"MCTXT": "BIZ DEVELP.TF(SALES)",
+		"bpfIndex": 81,
+		"KOKRS": "B100",
+		"LTEXT": "Biz Develp.TF(Sales)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Chemical Common",
+		"MANDT": "100",
+		"KOSTL": "B1072005",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CHEMICAL COMMON",
+		"bpfIndex": 82,
+		"KOKRS": "B100",
+		"LTEXT": "Chemical Common"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "TL",
+		"MANDT": "100",
+		"KOSTL": "B107200501",
+		"DATBI": "9999.12.31",
+		"MCTXT": "TL",
+		"bpfIndex": 83,
+		"KOKRS": "B100",
+		"LTEXT": "TL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "MX",
+		"MANDT": "100",
+		"KOSTL": "B107200502",
+		"DATBI": "9999.12.31",
+		"MCTXT": "MX",
+		"bpfIndex": 84,
+		"KOKRS": "B100",
+		"LTEXT": "MX"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "OLEFIN",
+		"MANDT": "100",
+		"KOSTL": "B107200503",
+		"DATBI": "9999.12.31",
+		"MCTXT": "OLEFIN",
+		"bpfIndex": 85,
+		"KOKRS": "B100",
+		"LTEXT": "OLEFIN"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SM",
+		"MANDT": "100",
+		"KOSTL": "B107200504",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SM",
+		"bpfIndex": 86,
+		"KOKRS": "B100",
+		"LTEXT": "SM"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "BZ",
+		"MANDT": "100",
+		"KOSTL": "B107200505",
+		"DATBI": "9999.12.31",
+		"MCTXT": "BZ",
+		"bpfIndex": 87,
+		"KOKRS": "B100",
+		"LTEXT": "BZ"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PX",
+		"MANDT": "100",
+		"KOSTL": "B107200506",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PX",
+		"bpfIndex": 88,
+		"KOKRS": "B100",
+		"LTEXT": "PX"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PTA",
+		"MANDT": "100",
+		"KOSTL": "B107200507",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PTA",
+		"bpfIndex": 89,
+		"KOKRS": "B100",
+		"LTEXT": "PTA"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "MEG",
+		"MANDT": "100",
+		"KOSTL": "B107200508",
+		"DATBI": "9999.12.31",
+		"MCTXT": "MEG",
+		"bpfIndex": 90,
+		"KOKRS": "B100",
+		"LTEXT": "MEG"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "ABS",
+		"MANDT": "100",
+		"KOSTL": "B107200509",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ABS",
+		"bpfIndex": 91,
+		"KOKRS": "B100",
+		"LTEXT": "ABS"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PET",
+		"MANDT": "100",
+		"KOSTL": "B107200510",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PET",
+		"bpfIndex": 92,
+		"KOKRS": "B100",
+		"LTEXT": "PET"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PVC",
+		"MANDT": "100",
+		"KOSTL": "B107200511",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PVC",
+		"bpfIndex": 93,
+		"KOKRS": "B100",
+		"LTEXT": "PVC"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PE",
+		"MANDT": "100",
+		"KOSTL": "B107200512",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PE",
+		"bpfIndex": 94,
+		"KOKRS": "B100",
+		"LTEXT": "PE"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PP",
+		"MANDT": "100",
+		"KOSTL": "B107200513",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PP",
+		"bpfIndex": 95,
+		"KOKRS": "B100",
+		"LTEXT": "PP"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Inorganic Chem",
+		"MANDT": "100",
+		"KOSTL": "B107200514",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INORGANIC CHEM",
+		"bpfIndex": 96,
+		"KOKRS": "B100",
+		"LTEXT": "Inorganic Chem"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fertilizers 1",
+		"MANDT": "100",
+		"KOSTL": "B107200515",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FERTILIZERS 1",
+		"bpfIndex": 97,
+		"KOKRS": "B100",
+		"LTEXT": "Fertilizers 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fertilizers 2",
+		"MANDT": "100",
+		"KOSTL": "B107200516",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FERTILIZERS 2",
+		"bpfIndex": 98,
+		"KOKRS": "B100",
+		"LTEXT": "Fertilizers 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Tank(Inorganic)",
+		"MANDT": "100",
+		"KOSTL": "B107200517",
+		"DATBI": "9999.12.31",
+		"MCTXT": "TANK(INORGANIC)",
+		"bpfIndex": 99,
+		"KOKRS": "B100",
+		"LTEXT": "Tank(Inorganic)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "General Chem 1",
+		"MANDT": "100",
+		"KOSTL": "B107200518",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GENERAL CHEM 1",
+		"bpfIndex": 100,
+		"KOKRS": "B100",
+		"LTEXT": "General Chem 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Oil Business",
+		"MANDT": "100",
+		"KOSTL": "B107200519",
+		"DATBI": "9999.12.31",
+		"MCTXT": "OIL BUSINESS",
+		"bpfIndex": 101,
+		"KOKRS": "B100",
+		"LTEXT": "Oil Business"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Tank(General)",
+		"MANDT": "100",
+		"KOSTL": "B107200520",
+		"DATBI": "9999.12.31",
+		"MCTXT": "TANK(GENERAL)",
+		"bpfIndex": 102,
+		"KOKRS": "B100",
+		"LTEXT": "Tank(General)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fine Chem 1",
+		"MANDT": "100",
+		"KOSTL": "B107200521",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FINE CHEM 1",
+		"bpfIndex": 103,
+		"KOKRS": "B100",
+		"LTEXT": "Fine Chem 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fine Chem 3",
+		"MANDT": "100",
+		"KOSTL": "B107200522",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FINE CHEM 3",
+		"bpfIndex": 104,
+		"KOKRS": "B100",
+		"LTEXT": "Fine Chem 3"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Organic Chem",
+		"MANDT": "100",
+		"KOSTL": "B107200523",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ORGANIC CHEM",
+		"bpfIndex": 105,
+		"KOKRS": "B100",
+		"LTEXT": "Organic Chem"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Ethanol",
+		"MANDT": "100",
+		"KOSTL": "B107200524",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ETHANOL",
+		"bpfIndex": 106,
+		"KOKRS": "B100",
+		"LTEXT": "Ethanol"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fine Chem 2",
+		"MANDT": "100",
+		"KOSTL": "B107200525",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FINE CHEM 2",
+		"bpfIndex": 107,
+		"KOKRS": "B100",
+		"LTEXT": "Fine Chem 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Elect Industry Com",
+		"MANDT": "100",
+		"KOSTL": "B1072006",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECT INDUSTRY COM",
+		"bpfIndex": 108,
+		"KOKRS": "B100",
+		"LTEXT": "Elect Industry Com"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic Mat'ls 1",
+		"MANDT": "100",
+		"KOSTL": "B107200601",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC MAT'LS 1",
+		"bpfIndex": 109,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic Mat'ls 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic Mat'ls 2",
+		"MANDT": "100",
+		"KOSTL": "B107200602",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC MAT'LS 2",
+		"bpfIndex": 110,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic Mat'ls 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic E&C P3",
+		"MANDT": "100",
+		"KOSTL": "B107200603",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC E&C P3",
+		"bpfIndex": 111,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic E&C P3"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Consumables",
+		"MANDT": "100",
+		"KOSTL": "B107200604",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CONSUMABLES",
+		"bpfIndex": 112,
+		"KOKRS": "B100",
+		"LTEXT": "Consumables"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Solar(SCM)",
+		"MANDT": "100",
+		"KOSTL": "B107200605",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SOLAR(SCM)",
+		"bpfIndex": 113,
+		"KOKRS": "B100",
+		"LTEXT": "Solar(SCM)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Food&Resources",
+		"MANDT": "100",
+		"KOSTL": "B107200606",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FOOD&RESOURCES",
+		"bpfIndex": 114,
+		"KOKRS": "B100",
+		"LTEXT": "Food&Resources"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic E&C 1",
+		"MANDT": "100",
+		"KOSTL": "B107200607",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC E&C 1",
+		"bpfIndex": 115,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic E&C 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic E&C 2",
+		"MANDT": "100",
+		"KOSTL": "B107200608",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC E&C 2",
+		"bpfIndex": 116,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic E&C 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Oil Palm",
+		"MANDT": "100",
+		"KOSTL": "B107200609",
+		"DATBI": "9999.12.31",
+		"MCTXT": "OIL PALM",
+		"bpfIndex": 117,
+		"KOKRS": "B100",
+		"LTEXT": "Oil Palm"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Textile Import",
+		"MANDT": "100",
+		"KOSTL": "B107200610",
+		"DATBI": "9999.12.31",
+		"MCTXT": "TEXTILE IMPORT",
+		"bpfIndex": 118,
+		"KOKRS": "B100",
+		"LTEXT": "Textile Import"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Paper",
+		"MANDT": "100",
+		"KOSTL": "B107200611",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PAPER",
+		"bpfIndex": 119,
+		"KOKRS": "B100",
+		"LTEXT": "Paper"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "General Fabric",
+		"MANDT": "100",
+		"KOSTL": "B107200612",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GENERAL FABRIC",
+		"bpfIndex": 120,
+		"KOKRS": "B100",
+		"LTEXT": "General Fabric"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Agri-Resources Sup.",
+		"MANDT": "100",
+		"KOSTL": "B107200613",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AGRI-RESOURCES SUP.",
+		"bpfIndex": 121,
+		"KOKRS": "B100",
+		"LTEXT": "Agri-Resources Sup."
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Precision2(DisplayM)",
+		"MANDT": "100",
+		"KOSTL": "B107200614",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PRECISION2(DISPLAYM)",
+		"bpfIndex": 122,
+		"KOKRS": "B100",
+		"LTEXT": "Precision Materials 2 (Display Materials"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Precision1(LCD PANEL",
+		"MANDT": "100",
+		"KOSTL": "B107200615",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PRECISION1(LCD PANEL",
+		"bpfIndex": 123,
+		"KOKRS": "B100",
+		"LTEXT": "Precision Materials1(LCD PANEL)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic E&C2(USED",
+		"MANDT": "100",
+		"KOSTL": "B107200616",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC E&C2(USED",
+		"bpfIndex": 124,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic E&C2(USED EQUIP)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic E&C2(ASML",
+		"MANDT": "100",
+		"KOSTL": "B107200617",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC E&C2(ASML",
+		"bpfIndex": 125,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic E&C2(ASML)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "EREX",
+		"MANDT": "100",
+		"KOSTL": "B107200618",
+		"DATBI": "9999.12.31",
+		"MCTXT": "EREX",
+		"bpfIndex": 126,
+		"KOKRS": "B100",
+		"LTEXT": "EREX"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Project Common",
+		"MANDT": "100",
+		"KOSTL": "B1072007",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PROJECT COMMON",
+		"bpfIndex": 127,
+		"KOKRS": "B100",
+		"LTEXT": "Project Common"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Ship & offshore 1",
+		"MANDT": "100",
+		"KOSTL": "B107200701",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SHIP & OFFSHORE 1",
+		"bpfIndex": 128,
+		"KOKRS": "B100",
+		"LTEXT": "Ship & offshore 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Infra1",
+		"MANDT": "100",
+		"KOSTL": "B107200702",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INFRA1",
+		"bpfIndex": 129,
+		"KOKRS": "B100",
+		"LTEXT": "Infra1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Infra2",
+		"MANDT": "100",
+		"KOSTL": "B107200703",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INFRA2",
+		"bpfIndex": 130,
+		"KOKRS": "B100",
+		"LTEXT": "Infra2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Ship & offshore 2",
+		"MANDT": "100",
+		"KOSTL": "B107200704",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SHIP & OFFSHORE 2",
+		"bpfIndex": 131,
+		"KOKRS": "B100",
+		"LTEXT": "Ship & offshore 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Plant 1",
+		"MANDT": "100",
+		"KOSTL": "B107200705",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PLANT 1",
+		"bpfIndex": 132,
+		"KOKRS": "B100",
+		"LTEXT": "Plant 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Plant 2",
+		"MANDT": "100",
+		"KOSTL": "B107200706",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PLANT 2",
+		"bpfIndex": 133,
+		"KOKRS": "B100",
+		"LTEXT": "Plant 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Power Project 1",
+		"MANDT": "100",
+		"KOSTL": "B107200707",
+		"DATBI": "9999.12.31",
+		"MCTXT": "POWER PROJECT 1",
+		"bpfIndex": 134,
+		"KOKRS": "B100",
+		"LTEXT": "Power Project 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Power Project 2",
+		"MANDT": "100",
+		"KOSTL": "B107200708",
+		"DATBI": "9999.12.31",
+		"MCTXT": "POWER PROJECT 2",
+		"bpfIndex": 135,
+		"KOKRS": "B100",
+		"LTEXT": "Power Project 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Samsung C&T Malaysia",
+		"MANDT": "100",
+		"KOSTL": "B1073001",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SAMSUNG C&T MALAYSIA",
+		"bpfIndex": 136,
+		"KOKRS": "B100",
+		"LTEXT": "Samsung C&T Malaysia"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Admin. & Accts.",
+		"MANDT": "100",
+		"KOSTL": "B1073002",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ADMIN. & ACCTS.",
+		"bpfIndex": 137,
+		"KOKRS": "B100",
+		"LTEXT": "Admin. & Accts."
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "S-ERP FEE SETTLEMENT",
+		"MANDT": "100",
+		"KOSTL": "B107300201",
+		"DATBI": "9999.12.31",
+		"MCTXT": "S-ERP FEE SETTLEMENT",
+		"bpfIndex": 138,
+		"KOKRS": "B100",
+		"LTEXT": "S-ERP FEE SETTLEMENT"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Chemical Common",
+		"MANDT": "100",
+		"KOSTL": "B1073003",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CHEMICAL COMMON",
+		"bpfIndex": 139,
+		"KOKRS": "B100",
+		"LTEXT": "Chemical Common"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "ABS",
+		"MANDT": "100",
+		"KOSTL": "B107300301",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ABS",
+		"bpfIndex": 140,
+		"KOKRS": "B100",
+		"LTEXT": "ABS"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PET",
+		"MANDT": "100",
+		"KOSTL": "B107300302",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PET",
+		"bpfIndex": 141,
+		"KOKRS": "B100",
+		"LTEXT": "PET"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PVC",
+		"MANDT": "100",
+		"KOSTL": "B107300303",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PVC",
+		"bpfIndex": 142,
+		"KOKRS": "B100",
+		"LTEXT": "PVC"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PE",
+		"MANDT": "100",
+		"KOSTL": "B107300304",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PE",
+		"bpfIndex": 143,
+		"KOKRS": "B100",
+		"LTEXT": "PE"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PP",
+		"MANDT": "100",
+		"KOSTL": "B107300305",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PP",
+		"bpfIndex": 144,
+		"KOKRS": "B100",
+		"LTEXT": "PP"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "General Chem 1",
+		"MANDT": "100",
+		"KOSTL": "B107300306",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GENERAL CHEM 1",
+		"bpfIndex": 145,
+		"KOKRS": "B100",
+		"LTEXT": "General Chem 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fine Chem 1",
+		"MANDT": "100",
+		"KOSTL": "B107300307",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FINE CHEM 1",
+		"bpfIndex": 146,
+		"KOKRS": "B100",
+		"LTEXT": "Fine Chem 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fine Chem 3",
+		"MANDT": "100",
+		"KOSTL": "B107300308",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FINE CHEM 3",
+		"bpfIndex": 147,
+		"KOKRS": "B100",
+		"LTEXT": "Fine Chem 3"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Inorganic Chem",
+		"MANDT": "100",
+		"KOSTL": "B107300309",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INORGANIC CHEM",
+		"bpfIndex": 148,
+		"KOKRS": "B100",
+		"LTEXT": "Inorganic Chem"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fertilizers 1",
+		"MANDT": "100",
+		"KOSTL": "B107300310",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FERTILIZERS 1",
+		"bpfIndex": 149,
+		"KOKRS": "B100",
+		"LTEXT": "Fertilizers 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fertilizers 2",
+		"MANDT": "100",
+		"KOSTL": "B107300311",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FERTILIZERS 2",
+		"bpfIndex": 150,
+		"KOKRS": "B100",
+		"LTEXT": "Fertilizers 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Steel Common",
+		"MANDT": "100",
+		"KOSTL": "B107300312",
+		"DATBI": "9999.12.31",
+		"MCTXT": "STEEL COMMON",
+		"bpfIndex": 151,
+		"KOKRS": "B100",
+		"LTEXT": "Steel Common"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Food&Resources",
+		"MANDT": "100",
+		"KOSTL": "B107300313",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FOOD&RESOURCES",
+		"bpfIndex": 152,
+		"KOKRS": "B100",
+		"LTEXT": "Food&Resources"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "General Chem3(Orga)",
+		"MANDT": "100",
+		"KOSTL": "B107300314",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GENERAL CHEM3(ORGA)",
+		"bpfIndex": 153,
+		"KOKRS": "B100",
+		"LTEXT": "General Chem3(Orga)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Oil Palm",
+		"MANDT": "100",
+		"KOSTL": "B107300315",
+		"DATBI": "9999.12.31",
+		"MCTXT": "OIL PALM",
+		"bpfIndex": 154,
+		"KOKRS": "B100",
+		"LTEXT": "Oil Palm"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Industrial Fuel",
+		"MANDT": "100",
+		"KOSTL": "B107300316",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INDUSTRIAL FUEL",
+		"bpfIndex": 155,
+		"KOKRS": "B100",
+		"LTEXT": "Industrial Fuel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fine Chem 2",
+		"MANDT": "100",
+		"KOSTL": "B107300317",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FINE CHEM 2",
+		"bpfIndex": 156,
+		"KOKRS": "B100",
+		"LTEXT": "Fine Chem 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Natural Energy com",
+		"MANDT": "100",
+		"KOSTL": "B1073004",
+		"DATBI": "9999.12.31",
+		"MCTXT": "NATURAL ENERGY COM",
+		"bpfIndex": 157,
+		"KOKRS": "B100",
+		"LTEXT": "Natural Energy com"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Gas PLNG",
+		"MANDT": "100",
+		"KOSTL": "B107300401",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GAS PLNG",
+		"bpfIndex": 158,
+		"KOKRS": "B100",
+		"LTEXT": "Gas PLNG"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Gas Marketing",
+		"MANDT": "100",
+		"KOSTL": "B107300402",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GAS MARKETING",
+		"bpfIndex": 159,
+		"KOKRS": "B100",
+		"LTEXT": "Gas Marketing"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Coal 1",
+		"MANDT": "100",
+		"KOSTL": "B107300403",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COAL 1",
+		"bpfIndex": 160,
+		"KOKRS": "B100",
+		"LTEXT": "Coal 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Coal 2",
+		"MANDT": "100",
+		"KOSTL": "B107300404",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COAL 2",
+		"bpfIndex": 161,
+		"KOKRS": "B100",
+		"LTEXT": "Coal 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Sourcing",
+		"MANDT": "100",
+		"KOSTL": "B107300405",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SOURCING",
+		"bpfIndex": 162,
+		"KOKRS": "B100",
+		"LTEXT": "Sourcing"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Copper(Cathode)",
+		"MANDT": "100",
+		"KOSTL": "B107300406",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COPPER(CATHODE)",
+		"bpfIndex": 163,
+		"KOKRS": "B100",
+		"LTEXT": ""
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Copper(Concent)",
+		"MANDT": "100",
+		"KOSTL": "B107300407",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COPPER(CONCENT)",
+		"bpfIndex": 164,
+		"KOKRS": "B100",
+		"LTEXT": "Copper(Concent)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Project\/IT Common",
+		"MANDT": "100",
+		"KOSTL": "B1073005",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PROJECT\/IT COMMON",
+		"bpfIndex": 165,
+		"KOKRS": "B100",
+		"LTEXT": "Project\/IT Common"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Infra1",
+		"MANDT": "100",
+		"KOSTL": "B107300501",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INFRA1",
+		"bpfIndex": 166,
+		"KOKRS": "B100",
+		"LTEXT": "Infra1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Infra2",
+		"MANDT": "100",
+		"KOSTL": "B107300502",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INFRA2",
+		"bpfIndex": 167,
+		"KOKRS": "B100",
+		"LTEXT": "Infra2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Ship & offshore 1",
+		"MANDT": "100",
+		"KOSTL": "B107300503",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SHIP & OFFSHORE 1",
+		"bpfIndex": 168,
+		"KOKRS": "B100",
+		"LTEXT": "Ship & offshore 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Ship & offshore 2",
+		"MANDT": "100",
+		"KOSTL": "B107300504",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SHIP & OFFSHORE 2",
+		"bpfIndex": 169,
+		"KOKRS": "B100",
+		"LTEXT": "Ship & offshore 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Power Project 1",
+		"MANDT": "100",
+		"KOSTL": "B107300505",
+		"DATBI": "9999.12.31",
+		"MCTXT": "POWER PROJECT 1",
+		"bpfIndex": 170,
+		"KOKRS": "B100",
+		"LTEXT": "Power Project 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Power Project 2",
+		"MANDT": "100",
+		"KOSTL": "B107300506",
+		"DATBI": "9999.12.31",
+		"MCTXT": "POWER PROJECT 2",
+		"bpfIndex": 171,
+		"KOKRS": "B100",
+		"LTEXT": "Power Project 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "TNB PROJECT",
+		"MANDT": "100",
+		"KOSTL": "B1073006",
+		"DATBI": "9999.12.31",
+		"MCTXT": "TNB PROJECT",
+		"bpfIndex": 172,
+		"KOKRS": "B100",
+		"LTEXT": "TNB PROJECT"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Administration",
+		"MANDT": "100",
+		"KOSTL": "B1074001",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ADMINISTRATION",
+		"bpfIndex": 173,
+		"KOKRS": "B100",
+		"LTEXT": "Administration"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Internal Interest",
+		"MANDT": "100",
+		"KOSTL": "B107400101",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INTERNAL INTEREST",
+		"bpfIndex": 174,
+		"KOKRS": "B100",
+		"LTEXT": "Internal Interest"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Investment",
+		"MANDT": "100",
+		"KOSTL": "B107400102",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INVESTMENT",
+		"bpfIndex": 175,
+		"KOKRS": "B100",
+		"LTEXT": "Investment"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Copper(Concent)",
+		"MANDT": "100",
+		"KOSTL": "B107400103",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COPPER(CONCENT)",
+		"bpfIndex": 176,
+		"KOKRS": "B100",
+		"LTEXT": "Copper(Concent)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Copper(Cathode)",
+		"MANDT": "100",
+		"KOSTL": "B107400104",
+		"DATBI": "9999.12.31",
+		"MCTXT": "COPPER(CATHODE)",
+		"bpfIndex": 177,
+		"KOKRS": "B100",
+		"LTEXT": "Copper(Cathode)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "S-ERP FEE SETTLEMENT",
+		"MANDT": "100",
+		"KOSTL": "B107400106",
+		"DATBI": "9999.12.31",
+		"MCTXT": "S-ERP FEE SETTLEMENT",
+		"bpfIndex": 178,
+		"KOKRS": "B100",
+		"LTEXT": "S-ERP FEE SETTLEMENT"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Accounting Team",
+		"MANDT": "100",
+		"KOSTL": "B1074002",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ACCOUNTING TEAM",
+		"bpfIndex": 179,
+		"KOKRS": "B100",
+		"LTEXT": "Accounting Team"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "General Affairs Team",
+		"MANDT": "100",
+		"KOSTL": "B1074003",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GENERAL AFFAIRS TEAM",
+		"bpfIndex": 180,
+		"KOKRS": "B100",
+		"LTEXT": "General Affairs Team"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Chemical Comomon",
+		"MANDT": "100",
+		"KOSTL": "B1074004",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CHEMICAL COMOMON",
+		"bpfIndex": 181,
+		"KOKRS": "B100",
+		"LTEXT": "Chemical Comomon"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fine Chem 1",
+		"MANDT": "100",
+		"KOSTL": "B107400401",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FINE CHEM 1",
+		"bpfIndex": 182,
+		"KOKRS": "B100",
+		"LTEXT": "Fine Chem 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fine Chem 3",
+		"MANDT": "100",
+		"KOSTL": "B107400402",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FINE CHEM 3",
+		"bpfIndex": 183,
+		"KOKRS": "B100",
+		"LTEXT": "Fine Chem 3"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "ABS",
+		"MANDT": "100",
+		"KOSTL": "B107400403",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ABS",
+		"bpfIndex": 184,
+		"KOKRS": "B100",
+		"LTEXT": "ABS"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PE",
+		"MANDT": "100",
+		"KOSTL": "B107400404",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PE",
+		"bpfIndex": 185,
+		"KOKRS": "B100",
+		"LTEXT": "PE"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PP",
+		"MANDT": "100",
+		"KOSTL": "B107400405",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PP",
+		"bpfIndex": 186,
+		"KOKRS": "B100",
+		"LTEXT": "PP"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "General Chem 1",
+		"MANDT": "100",
+		"KOSTL": "B107400406",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GENERAL CHEM 1",
+		"bpfIndex": 187,
+		"KOKRS": "B100",
+		"LTEXT": "General Chem 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fertilizers 1",
+		"MANDT": "100",
+		"KOSTL": "B107400407",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FERTILIZERS 1",
+		"bpfIndex": 188,
+		"KOKRS": "B100",
+		"LTEXT": "Fertilizers 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fertilizers 2",
+		"MANDT": "100",
+		"KOSTL": "B107400408",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FERTILIZERS 2",
+		"bpfIndex": 189,
+		"KOKRS": "B100",
+		"LTEXT": "Fertilizers 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SM",
+		"MANDT": "100",
+		"KOSTL": "B107400409",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SM",
+		"bpfIndex": 190,
+		"KOKRS": "B100",
+		"LTEXT": "SM"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "BZ",
+		"MANDT": "100",
+		"KOSTL": "B107400410",
+		"DATBI": "9999.12.31",
+		"MCTXT": "BZ",
+		"bpfIndex": 191,
+		"KOKRS": "B100",
+		"LTEXT": "BZ"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "TL",
+		"MANDT": "100",
+		"KOSTL": "B107400411",
+		"DATBI": "9999.12.31",
+		"MCTXT": "TL",
+		"bpfIndex": 192,
+		"KOKRS": "B100",
+		"LTEXT": "TL"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "OLEFIN",
+		"MANDT": "100",
+		"KOSTL": "B107400412",
+		"DATBI": "9999.12.31",
+		"MCTXT": "OLEFIN",
+		"bpfIndex": 193,
+		"KOKRS": "B100",
+		"LTEXT": "OLEFIN"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "MX",
+		"MANDT": "100",
+		"KOSTL": "B107400413",
+		"DATBI": "9999.12.31",
+		"MCTXT": "MX",
+		"bpfIndex": 194,
+		"KOKRS": "B100",
+		"LTEXT": "MX"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PX",
+		"MANDT": "100",
+		"KOSTL": "B107400414",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PX",
+		"bpfIndex": 195,
+		"KOKRS": "B100",
+		"LTEXT": "PX"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "PTA",
+		"MANDT": "100",
+		"KOSTL": "B107400415",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PTA",
+		"bpfIndex": 196,
+		"KOKRS": "B100",
+		"LTEXT": "PTA"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Organic Chem",
+		"MANDT": "100",
+		"KOSTL": "B107400416",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ORGANIC CHEM",
+		"bpfIndex": 197,
+		"KOKRS": "B100",
+		"LTEXT": "Organic Chem"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "General Chem2(PET)",
+		"MANDT": "100",
+		"KOSTL": "B107400417",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GENERAL CHEM2(PET)",
+		"bpfIndex": 198,
+		"KOKRS": "B100",
+		"LTEXT": "General Chem2(PET)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "General Chem2(PVC)",
+		"MANDT": "100",
+		"KOSTL": "B107400418",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GENERAL CHEM2(PVC)",
+		"bpfIndex": 199,
+		"KOKRS": "B100",
+		"LTEXT": "General Chem2(PVC)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Fine Chem 2",
+		"MANDT": "100",
+		"KOSTL": "B107400419",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FINE CHEM 2",
+		"bpfIndex": 200,
+		"KOKRS": "B100",
+		"LTEXT": "Fine Chem 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Steel Common",
+		"MANDT": "100",
+		"KOSTL": "B1074005",
+		"DATBI": "9999.12.31",
+		"MCTXT": "STEEL COMMON",
+		"bpfIndex": 201,
+		"KOKRS": "B100",
+		"LTEXT": "Steel Common"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Auto Steel",
+		"MANDT": "100",
+		"KOSTL": "B107400501",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AUTO STEEL",
+		"bpfIndex": 202,
+		"KOKRS": "B100",
+		"LTEXT": "Auto Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "HR Steel",
+		"MANDT": "100",
+		"KOSTL": "B107400502",
+		"DATBI": "9999.12.31",
+		"MCTXT": "HR STEEL",
+		"bpfIndex": 203,
+		"KOKRS": "B100",
+		"LTEXT": "HR Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Steel Plate",
+		"MANDT": "100",
+		"KOSTL": "B107400503",
+		"DATBI": "9999.12.31",
+		"MCTXT": "STEEL PLATE",
+		"bpfIndex": 204,
+		"KOKRS": "B100",
+		"LTEXT": "Steel Plate"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Flat Steel",
+		"MANDT": "100",
+		"KOSTL": "B107400504",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FLAT STEEL",
+		"bpfIndex": 205,
+		"KOKRS": "B100",
+		"LTEXT": "Flat Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "CR Steel1",
+		"MANDT": "100",
+		"KOSTL": "B107400505",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CR STEEL1",
+		"bpfIndex": 206,
+		"KOKRS": "B100",
+		"LTEXT": "CR Steel1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electrical Steel",
+		"MANDT": "100",
+		"KOSTL": "B107400506",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRICAL STEEL",
+		"bpfIndex": 207,
+		"KOKRS": "B100",
+		"LTEXT": "Electrical Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "CR Steel2",
+		"MANDT": "100",
+		"KOSTL": "B107400507",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CR STEEL2",
+		"bpfIndex": 208,
+		"KOKRS": "B100",
+		"LTEXT": "CR Steel2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Stainless Steel",
+		"MANDT": "100",
+		"KOSTL": "B107400508",
+		"DATBI": "9999.12.31",
+		"MCTXT": "STAINLESS STEEL",
+		"bpfIndex": 209,
+		"KOKRS": "B100",
+		"LTEXT": "Stainless Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Auto Steel2",
+		"MANDT": "100",
+		"KOSTL": "B107400509",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AUTO STEEL2",
+		"bpfIndex": 210,
+		"KOKRS": "B100",
+		"LTEXT": "Auto Steel2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Energy Steel",
+		"MANDT": "100",
+		"KOSTL": "B107400510",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ENERGY STEEL",
+		"bpfIndex": 211,
+		"KOKRS": "B100",
+		"LTEXT": "Energy Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Semi Finished Steel",
+		"MANDT": "100",
+		"KOSTL": "B107400511",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SEMI FINISHED STEEL",
+		"bpfIndex": 212,
+		"KOKRS": "B100",
+		"LTEXT": "Semi Finished Steel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Flat Steel2",
+		"MANDT": "100",
+		"KOSTL": "B107400512",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FLAT STEEL2",
+		"bpfIndex": 213,
+		"KOKRS": "B100",
+		"LTEXT": "Flat Steel2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Asia",
+		"MANDT": "100",
+		"KOSTL": "B107400513",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ASIA",
+		"bpfIndex": 214,
+		"KOKRS": "B100",
+		"LTEXT": "Asia"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Americas 1",
+		"MANDT": "100",
+		"KOSTL": "B107400514",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AMERICAS 1",
+		"bpfIndex": 215,
+		"KOKRS": "B100",
+		"LTEXT": "Americas 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Americas 2",
+		"MANDT": "100",
+		"KOSTL": "B107400515",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AMERICAS 2",
+		"bpfIndex": 216,
+		"KOKRS": "B100",
+		"LTEXT": "Americas 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Europe",
+		"MANDT": "100",
+		"KOSTL": "B107400516",
+		"DATBI": "9999.12.31",
+		"MCTXT": "EUROPE",
+		"bpfIndex": 217,
+		"KOKRS": "B100",
+		"LTEXT": "Europe"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Africa & Mid East",
+		"MANDT": "100",
+		"KOSTL": "B107400517",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AFRICA & MID EAST",
+		"bpfIndex": 218,
+		"KOKRS": "B100",
+		"LTEXT": "Africa & Mid East"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Biz Develp.TF(Sales)",
+		"MANDT": "100",
+		"KOSTL": "B107400518",
+		"DATBI": "9999.12.31",
+		"MCTXT": "BIZ DEVELP.TF(SALES)",
+		"bpfIndex": 219,
+		"KOKRS": "B100",
+		"LTEXT": "Biz Develp.TF(Sales)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Project Common",
+		"MANDT": "100",
+		"KOSTL": "B1074006",
+		"DATBI": "9999.12.31",
+		"MCTXT": "PROJECT COMMON",
+		"bpfIndex": 220,
+		"KOKRS": "B100",
+		"LTEXT": "Project Common"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "CNG BUS",
+		"MANDT": "100",
+		"KOSTL": "B107400601",
+		"DATBI": "9999.12.31",
+		"MCTXT": "CNG BUS",
+		"bpfIndex": 221,
+		"KOKRS": "B100",
+		"LTEXT": "CNG BUS"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Infra2",
+		"MANDT": "100",
+		"KOSTL": "B107400602",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INFRA2",
+		"bpfIndex": 222,
+		"KOKRS": "B100",
+		"LTEXT": "Infra2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Ship & offshore 2",
+		"MANDT": "100",
+		"KOSTL": "B107400603",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SHIP & OFFSHORE 2",
+		"bpfIndex": 223,
+		"KOKRS": "B100",
+		"LTEXT": "Ship & offshore 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Indust Material Comm",
+		"MANDT": "100",
+		"KOSTL": "B1074007",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INDUST MATERIAL COMM",
+		"bpfIndex": 224,
+		"KOKRS": "B100",
+		"LTEXT": "Indust Material Comm"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic E&C 1",
+		"MANDT": "100",
+		"KOSTL": "B107400701",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC E&C 1",
+		"bpfIndex": 225,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic E&C 1"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Food&Resources",
+		"MANDT": "100",
+		"KOSTL": "B107400702",
+		"DATBI": "9999.12.31",
+		"MCTXT": "FOOD&RESOURCES",
+		"bpfIndex": 226,
+		"KOKRS": "B100",
+		"LTEXT": "Food&Resources"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Industrial Fuel",
+		"MANDT": "100",
+		"KOSTL": "B107400703",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INDUSTRIAL FUEL",
+		"bpfIndex": 227,
+		"KOKRS": "B100",
+		"LTEXT": "Industrial Fuel"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Oil Palm",
+		"MANDT": "100",
+		"KOSTL": "B107400704",
+		"DATBI": "9999.12.31",
+		"MCTXT": "OIL PALM",
+		"bpfIndex": 228,
+		"KOKRS": "B100",
+		"LTEXT": "Oil Palm"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic E&C 2",
+		"MANDT": "100",
+		"KOSTL": "B107400705",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC E&C 2",
+		"bpfIndex": 229,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic E&C 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Electronic E&C 3",
+		"MANDT": "100",
+		"KOSTL": "B107400706",
+		"DATBI": "9999.12.31",
+		"MCTXT": "ELECTRONIC E&C 3",
+		"bpfIndex": 230,
+		"KOKRS": "B100",
+		"LTEXT": "Electronic E&C 3"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Yangon Office",
+		"MANDT": "100",
+		"KOSTL": "B1075001",
+		"DATBI": "9999.12.31",
+		"MCTXT": "YANGON OFFICE",
+		"bpfIndex": 231,
+		"KOKRS": "B100",
+		"LTEXT": "Yangon Office"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SC_Yangon Office_X",
+		"MANDT": "100",
+		"KOSTL": "B1075001X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SC_YANGON OFFICE_X",
+		"bpfIndex": 232,
+		"KOKRS": "B100",
+		"LTEXT": "SC_Yangon Office_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Hochiminh Office",
+		"MANDT": "100",
+		"KOSTL": "B1076001",
+		"DATBI": "9999.12.31",
+		"MCTXT": "HOCHIMINH OFFICE",
+		"bpfIndex": 233,
+		"KOKRS": "B100",
+		"LTEXT": "Hochiminh Office"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SC_Hochimin Office_X",
+		"MANDT": "100",
+		"KOSTL": "B1076001X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SC_HOCHIMIN OFFICE_X",
+		"bpfIndex": 234,
+		"KOKRS": "B100",
+		"LTEXT": "SC_Hochimin Office_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Hanoi Office",
+		"MANDT": "100",
+		"KOSTL": "B1077001",
+		"DATBI": "9999.12.31",
+		"MCTXT": "HANOI OFFICE",
+		"bpfIndex": 235,
+		"KOKRS": "B100",
+		"LTEXT": "Hanoi Office"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Hanoi Office-GCMO",
+		"MANDT": "100",
+		"KOSTL": "B107700101",
+		"DATBI": "9999.12.31",
+		"MCTXT": "HANOI OFFICE-GCMO",
+		"bpfIndex": 236,
+		"KOKRS": "B100",
+		"LTEXT": "Hanoi Office-GCMO"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Hanoi Office-GCMO_X",
+		"MANDT": "100",
+		"KOSTL": "B10770011X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "HANOI OFFICE-GCMO_X",
+		"bpfIndex": 237,
+		"KOKRS": "B100",
+		"LTEXT": "Hanoi Office-GCMO_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SC_Hanoi Office_X",
+		"MANDT": "100",
+		"KOSTL": "B1077001X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SC_HANOI OFFICE_X",
+		"bpfIndex": 238,
+		"KOKRS": "B100",
+		"LTEXT": "SC_Hanoi Office_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Manila Office",
+		"MANDT": "100",
+		"KOSTL": "B1078001",
+		"DATBI": "9999.12.31",
+		"MCTXT": "MANILA OFFICE",
+		"bpfIndex": 239,
+		"KOKRS": "B100",
+		"LTEXT": "Manila Office"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SC_Manila Office_X",
+		"MANDT": "100",
+		"KOSTL": "B1078001X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SC_MANILA OFFICE_X",
+		"bpfIndex": 240,
+		"KOKRS": "B100",
+		"LTEXT": "SC_Manila Office_X"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Sydney Office",
+		"MANDT": "100",
+		"KOSTL": "B1079001",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SYDNEY OFFICE",
+		"bpfIndex": 241,
+		"KOKRS": "B100",
+		"LTEXT": "Sydney Office"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "SEA&Oceania GSO_Dumm",
+		"MANDT": "100",
+		"KOSTL": "B1079002",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SEA&OCEANIA GSO_DUMM",
+		"bpfIndex": 242,
+		"KOKRS": "B100",
+		"LTEXT": "SEA&Oceania GSO_Dummy"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Hanoi_GSO",
+		"MANDT": "100",
+		"KOSTL": "B1079003",
+		"DATBI": "9999.12.31",
+		"MCTXT": "HANOI_GSO",
+		"bpfIndex": 243,
+		"KOKRS": "B100",
+		"LTEXT": "Hanoi_GSO"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Global Strategy Offi",
+		"MANDT": "100",
+		"KOSTL": "B1079003X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "GLOBAL STRATEGY OFFI",
+		"bpfIndex": 244,
+		"KOKRS": "B100",
+		"LTEXT": "Global Strategy Office (Hanoi)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Sydney Office",
+		"MANDT": "100",
+		"KOSTL": "B1079004",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SYDNEY OFFICE",
+		"bpfIndex": 245,
+		"KOKRS": "B100",
+		"LTEXT": "Sydney Office"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Samarinda Office",
+		"MANDT": "100",
+		"KOSTL": "B1079005",
+		"DATBI": "9999.12.31",
+		"MCTXT": "SAMARINDA OFFICE",
+		"bpfIndex": 246,
+		"KOKRS": "B100",
+		"LTEXT": "Samarinda Office"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "INSAM Batubara E",
+		"MANDT": "100",
+		"KOSTL": "B1079006",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INSAM BATUBARA E",
+		"bpfIndex": 247,
+		"KOKRS": "B100",
+		"LTEXT": "INSAM Batubara E"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Indonesia Trading",
+		"MANDT": "100",
+		"KOSTL": "B1079007",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INDONESIA TRADING",
+		"bpfIndex": 248,
+		"KOKRS": "B100",
+		"LTEXT": "Indonesia Trading"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Indonesia Trading 2",
+		"MANDT": "100",
+		"KOSTL": "B1079008",
+		"DATBI": "9999.12.31",
+		"MCTXT": "INDONESIA TRADING 2",
+		"bpfIndex": 249,
+		"KOKRS": "B100",
+		"LTEXT": "Indonesia Trading 2"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Management Support",
+		"MANDT": "100",
+		"KOSTL": "B1079009",
+		"DATBI": "9999.12.31",
+		"MCTXT": "MANAGEMENT SUPPORT",
+		"bpfIndex": 250,
+		"KOKRS": "B100",
+		"LTEXT": "Management Support"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "S-ERP FEE SETTLEMENT",
+		"MANDT": "100",
+		"KOSTL": "B107900901",
+		"DATBI": "9999.12.31",
+		"MCTXT": "S-ERP FEE SETTLEMENT",
+		"bpfIndex": 251,
+		"KOKRS": "B100",
+		"LTEXT": "S-ERP FEE SETTLEMENT"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "Auto Steel-Steel2(2)",
+		"MANDT": "100",
+		"KOSTL": "B108101107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "AUTO STEEL-STEEL2(2)",
+		"bpfIndex": 252,
+		"KOKRS": "B100",
+		"LTEXT": "Auto Steel-Steel2(2)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "평택초고교(국내OJT)",
+		"MANDT": "100",
+		"KOSTL": "B10CH0107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "평택초고교(국내OJT)",
+		"bpfIndex": 253,
+		"KOKRS": "B100",
+		"LTEXT": "평택초고교(국내OJT)"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "용인 Y-PJT",
+		"MANDT": "100",
+		"KOSTL": "B10CP107G",
+		"DATBI": "9999.12.31",
+		"MCTXT": "용인 Y-PJT",
+		"bpfIndex": 254,
+		"KOKRS": "B100",
+		"LTEXT": "용인 Y-PJT"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "박정희기념관",
+		"MANDT": "100",
+		"KOSTL": "B10CP107Q",
+		"DATBI": "9999.12.31",
+		"MCTXT": "박정희기념관",
+		"bpfIndex": 255,
+		"KOKRS": "B100",
+		"LTEXT": "박정희기념관"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "탕정LCD 154KV신설",
+		"MANDT": "100",
+		"KOSTL": "B10CP107R",
+		"DATBI": "9999.12.31",
+		"MCTXT": "탕정LCD 154KV신설",
+		"bpfIndex": 256,
+		"KOKRS": "B100",
+		"LTEXT": "탕정LCD 154KV신설"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "정밀금형기술센터",
+		"MANDT": "100",
+		"KOSTL": "B10CP107S",
+		"DATBI": "9999.12.31",
+		"MCTXT": "정밀금형기술센터",
+		"bpfIndex": 257,
+		"KOKRS": "B100",
+		"LTEXT": "정밀금형기술센터"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "미술관 수장고증축",
+		"MANDT": "100",
+		"KOSTL": "B10CP107U",
+		"DATBI": "9999.12.31",
+		"MCTXT": "미술관 수장고증축",
+		"bpfIndex": 258,
+		"KOKRS": "B100",
+		"LTEXT": "미술관 수장고증축"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "교원 경주드림센터 소방시설",
+		"MANDT": "100",
+		"KOSTL": "B10CP107W",
+		"DATBI": "9999.12.31",
+		"MCTXT": "교원 경주드림센터 소방시설",
+		"bpfIndex": 259,
+		"KOKRS": "B100",
+		"LTEXT": "교원 경주드림센터 소방시설"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "코스트코 상봉점 증축",
+		"MANDT": "100",
+		"KOSTL": "B10CP107X",
+		"DATBI": "9999.12.31",
+		"MCTXT": "코스트코 상봉점 증축",
+		"bpfIndex": 260,
+		"KOKRS": "B100",
+		"LTEXT": "코스트코 상봉점 증축"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "신입사원하계수련대회 무대공사",
+		"MANDT": "100",
+		"KOSTL": "B10CP107Y",
+		"DATBI": "9999.12.31",
+		"MCTXT": "신입사원하계수련대회 무대공사",
+		"bpfIndex": 261,
+		"KOKRS": "B100",
+		"LTEXT": "신입사원하계수련대회 무대공사"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "삼성상회 재조성 현장",
+		"MANDT": "100",
+		"KOSTL": "B10CP107Z",
+		"DATBI": "9999.12.31",
+		"MCTXT": "삼성상회 재조성 현장",
+		"bpfIndex": 262,
+		"KOKRS": "B100",
+		"LTEXT": "삼성상회 재조성 현장"
+	}, {
+		"SPRAS": "E",
+		"KTEXT": "잠실향군타워B",
+		"MANDT": "100",
+		"KOSTL": "B10CP1107",
+		"DATBI": "9999.12.31",
+		"MCTXT": "잠실향군타워B",
+		"bpfIndex": 263,
+		"KOKRS": "B100",
+		"LTEXT": "잠실향군타워B"
+	}],
+	"PE_MSG": "",
+	"RST_CD": "S",
+	"PE_BUDGET": "",
+	"PE_BUDGET_TXT": ""
+}

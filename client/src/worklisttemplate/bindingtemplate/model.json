@@ -57,67 +57,14 @@
 					"regExpErrMsg": "viewXML_model_parameters_name_validationError"
 				}
 			},
-			"isSearchPanel": {
-				"type": "string",
-				"binding": [{
-					"name": "Yes",
-					"value": "true"
-				}, {
-					"name": "No",
-					"value": "false"
-				}],
-				"value": "@basicSAPUI5ApplicationProject.parameters.isSearchPanel.binding.0",
-				"wizard": {
-					"control": "ComboBox",
-					"required": true,
-					"title": "needs for search panel"
-				}
-			},
-			"iSearchSetCount1": {
-				"type": "string",
-				"binding": [{
-					"name": "Yes",
-					"value": "true"
-				}, {
-					"name": "No",
-					"value": "false"
-				}],
-				"value": "@basicSAPUI5ApplicationProject.parameters.iSearchSetCount1.binding.1",
-				"wizard": {
-					"control": "ComboBox",
-					"required": false,
-					"title": "needs for SearchSet1",
-					"regExpErrMsg": "viewXML_model_parameters_name_validationError"
-				}
-			},
-			"iSearchSetCount2": {
-				"type": "string",
-				"binding": [{
-					"name": "Yes",
-					"value": "true"
-				}, {
-					"name": "No",
-					"value": "false"
-				}],
-				"value": "@basicSAPUI5ApplicationProject.parameters.iSearchSetCount2.binding.0",
-				"wizard": {
-					"control": "ComboBox",
-					"required": false,
-					"title": "needs for SearchSet2",
-					"regExpErrMsg": "viewXML_model_parameters_name_validationError"
-				}
-			},
-			"popupYN" : true,
-			"popupName" : ""
+			"panelDataList": ""
 		},
 		"forms": [{
 			"title": "",
 			"type": "templateCustomizationStep",
 			"groups": [{
 				"title": "emptyMobileProject_model_form_group_title",
-				"parameters": ["@basicSAPUI5ApplicationProject.parameters.ViewTypesCollection", "@basicSAPUI5ApplicationProject.parameters.name",
-				"@basicSAPUI5ApplicationProject.parameters.isSearchPanel", "@basicSAPUI5ApplicationProject.parameters.iSearchSetCount1", "@basicSAPUI5ApplicationProject.parameters.iSearchSetCount2"
-				]
+				"parameters": ["@basicSAPUI5ApplicationProject.parameters.ViewTypesCollection", "@basicSAPUI5ApplicationProject.parameters.name"]
 			}]
 		}, {
 			"type": "appDescriptorGenericStep",

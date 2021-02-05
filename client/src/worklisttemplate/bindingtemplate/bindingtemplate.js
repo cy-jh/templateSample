@@ -87,12 +87,14 @@ define([], function () {
 				model.sapUI5Url = "resources/sap-ui-core.js";
 				
 				//replace filename from wizard
-				templateZip.files["webapp/controller/temp.controller.js.tmpl"].name = "webapp/controller/"+model.basicSAPUI5ApplicationProject.parameters.name.value+".controller.js.tmpl";
-				templateZip.files["webapp/view/temp.view.xml.tmpl"].name = "webapp/view/"+model.basicSAPUI5ApplicationProject.parameters.name.value+".view.xml.tmpl";
+				templateZip.files["webapp/controller/tempCardExpensesList.controller.js.tmpl"].name = "webapp/controller/"+model.basicSAPUI5ApplicationProject.parameters.name.value+".controller.js.tmpl";
+				templateZip.files["webapp/view/tempCardExpensesList.view.xml.tmpl"].name = "webapp/view/"+model.basicSAPUI5ApplicationProject.parameters.name.value+".view.xml.tmpl";
+				// templateZip.files["webapp/controller/temp.controller.js.tmpl"].name = "webapp/controller/"+model.basicSAPUI5ApplicationProject.parameters.name.value+".controller.js.tmpl";
+				// templateZip.files["webapp/view/temp.view.xml.tmpl"].name = "webapp/view/"+model.basicSAPUI5ApplicationProject.parameters.name.value+".view.xml.tmpl";
 				
 				// if(model.basicSAPUI5ApplicationProject.parameters.popupYN) {
 				if(model.basicSAPUI5ApplicationProject.parameters.popupYN) {
-					templateZip.files["webapp/view/fragment/temp.fragment.xml.tmpl"].name = "webapp/view/fragment/popup_"+model.basicSAPUI5ApplicationProject.parameters.popupName+".fragment.xml.tmpl";
+					templateZip.files["webapp/view/fragment/temp.fragment.xml.tmpl"].name = "webapp/view/fragment/"+model.basicSAPUI5ApplicationProject.parameters.popupName+".fragment.xml.tmpl";
 				} else {
 					delete templateZip.files["webapp/view/fragment/temp.fragment.xml.tmpl"];
 				}

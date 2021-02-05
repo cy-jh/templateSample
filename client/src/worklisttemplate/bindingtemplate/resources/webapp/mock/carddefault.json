@@ -1,0 +1,67 @@
+{  
+   "PT_AGENT":[  
+      {  
+         "AGENT_DESC":"이현세 \/ E00010 \/ Manage. Innovation",
+         "TXT50":"",
+         "ORG_KOSTLNM":"Manage. Innovation",
+         "EPID":"hs7608.lee",
+         "ORG_KOSTL":"B1020020",
+         "bpfIndex":0,
+         "LIFNR_NAME":"이현세",
+         "LIFNR":"E00010",
+         "GSBER":"BAA1",
+         "BPLACE":""
+      },
+      {  
+         "AGENT_DESC":"오재홍 \/ E00020 \/ Manage. Innovation",
+         "TXT50":"",
+         "ORG_KOSTLNM":"Manage. Innovation",
+         "EPID":"jaehong.oh",
+         "ORG_KOSTL":"B1020020",
+         "bpfIndex":1,
+         "LIFNR_NAME":"오재홍",
+         "LIFNR":"E00020",
+         "GSBER":"BAA1",
+         "BPLACE":""
+      }
+   ],
+   "isValidationSAPLogonTicket":true,
+   "PT_CARDNO":[  
+      {  
+         "CARD_DESC":"CORPORATE ( 4670-6901-0000-0001 )",
+         "bpfIndex":0,
+         "LIFNR":"E00010",
+         "CARDNO":"4670690100000001",
+         "CARDCD":"01"
+      },
+      {  
+         "CARD_DESC":"CORPORATE ( 4670-6901-0012-3123 )",
+         "bpfIndex":1,
+         "LIFNR":"E00010",
+         "CARDNO":"4670690100123123",
+         "CARDCD":"01"
+      },
+      {  
+         "CARD_DESC":"CORPORATE ( 4670-6901-0045-6456 )",
+         "bpfIndex":2,
+         "LIFNR":"E00020",
+         "CARDNO":"4670690100456456",
+         "CARDCD":"01"
+      },
+      {  
+         "CARD_DESC":"CORPORATE ( 4670-6901-0000-0002 )",
+         "bpfIndex":3,
+         "LIFNR":"E00020",
+         "CARDNO":"4670690100000002",
+         "CARDCD":"01"
+      }
+   ],
+   "PE_MSG":"",
+   "PT_STATUS": [
+   	{ "STATUS": "", "TXT20": "미청구" },
+   	{ "STATUS": "SB", "TXT20": "상신중" },
+   	{ "STATUS": "AP", "TXT20": "결재완료" }
+   ],
+   "RST_CD":"S",
+   "PE_RETURN":""
+}

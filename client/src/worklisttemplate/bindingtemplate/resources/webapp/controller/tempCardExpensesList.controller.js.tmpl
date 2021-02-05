@@ -1,0 +1,152 @@
+sap.ui.define([
+	"jquery.sap.global",
+	"sap/ui/core/mvc/Controller",
+	"{{basicSAPUI5ApplicationProject.parameters.namespace.value}}/{{projectName}}/model/models",
+	"sap/ui/model/json/JSONModel",
+	"sap/m/MessageToast",
+	"sap/ui/core/format/DateFormat",
+	"sap/ui/model/Filter",
+    "sap/ui/model/FilterOperator"
+], function (jQuery, Controller, models, JSONModel, MessageToast, DateFormat, Filter, FilterOperator) {
+	"use strict";
+
+	return Controller.extend("{{basicSAPUI5ApplicationProject.parameters.namespace.value}}.{{projectName}}.controller.{{basicSAPUI5ApplicationProject.parameters.name.value}}", {
+		onInit : function() {
+        	var oView = this.getView();
+        	//oView.addStyleClass(this.getOwnerComponent().getContentDensityClass());
+        	this._setMockData();
+        },
+        
+        onSearch: function(oEvent) {
+        	var oView = this.getView(),
+        		oTable = this.getView().byId("table"),
+        		aMockDataList = oView.getModel("mockDataList").getData(),
+        		oCardListModel = oView.getModel("cardListModel"),
+        		// oDateModel = oView.getModel("dateModel"),
+        		// oSearchModel = oView.getModel("searchModel"),
+        		oFilterModel = oView.getModel("filterModel"),
+    			sName = oFilterModel.getProperty("/name"),
+    			sDevLang = oFilterModel.getProperty("/devlang"),
+    			sLang = oFilterModel.getProperty("/lang"),
+    			sCompany = oFilterModel.getProperty("/company"),
+    			aFilter = [];
+			
+        	oCardListModel.setProperty("/", aMockDataList);
+        	var oBinding = oTable.getBinding("items");
+        	
+        	// name
+        	if(sName.trim()) {
+    			aFilter.push(new Filter("DEMO_COL_NAME", FilterOperator.Contains, sName));
+        	}
+        	
+        	// company
+        	if(sCompany) {
+        		aFilter.push(new Filter("DEMO_COL_COMPANY", FilterOperator.Contains, sCompany));
+        	}
+        	
+        	if(sLang) {
+        		aFilter.push(new Filter("DEMO_COL_LANG", FilterOperator.Contains, sLang));
+        	}
+        	
+        	if(sDevLang) {
+        		aFilter.push(new Filter("DEMO_COL_DEVLANG", FilterOperator.Contains, sDevLang));
+        	}
+        	
+        	oBinding.filter(aFilter, "Application");
+        },
+		onChange: function(oEvent) {
+			var sLang = oEvent.getSource().getSelectedKey();
+			var oView = this.getView();
+			oView.getModel("filterModel").setProperty("/devlang", sLang);
+			
+		},
+
+        _setMockData: function() {
+        	var oView = this.getView(); 
+        	var today = new Date(),
+        	twoWeeksAgo = new Date();
+	    	twoWeeksAgo.setDate(today.getDate() - 14);
+	        
+	        // 승인일자 default 기간 설정(2주)
+	        oView.setModel(new JSONModel({ fromDate: twoWeeksAgo, toDate: today }), "dateModel");
+	        
+        	var oModelData = {
+        		cardData : [
+					{
+						"DEMO_COL_NAME": "James",
+						"DEMO_COL_LANG": "EN",
+						"DEMO_COL_COMPANY": "SAP",
+						"DEMO_COL_DEVLANG": "UI5"
+					}, {
+						"DEMO_COL_NAME": "김영수",
+						"DEMO_COL_LANG": "KR",
+						"DEMO_COL_COMPANY": "CY",
+						"DEMO_COL_DEVLANG": "UI5"
+					}, {
+						"DEMO_COL_NAME": "박재환",
+						"DEMO_COL_LANG": "KR",
+						"DEMO_COL_COMPANY": "CY",
+						"DEMO_COL_DEVLANG": "ABAP"
+					}, {
+						"DEMO_COL_NAME": "홍수연",
+						"DEMO_COL_LANG": "KR",
+						"DEMO_COL_COMPANY": "CY",
+						"DEMO_COL_DEVLANG": "ABAP"
+					}, {
+						"DEMO_COL_NAME": "김병호",
+						"DEMO_COL_LANG": "KR",
+						"DEMO_COL_COMPANY": "CY",
+						"DEMO_COL_DEVLANG": "JAVA"
+					}, {
+						"DEMO_COL_NAME": "Thomas",
+						"DEMO_COL_LANG": "EN",
+						"DEMO_COL_COMPANY": "SAP",
+						"DEMO_COL_DEVLANG": "ABAP"
+					}, {
+						"DEMO_COL_NAME": "최재홍",
+						"DEMO_COL_LANG": "KR",
+						"DEMO_COL_COMPANY": "CY",
+						"DEMO_COL_DEVLANG": "UI5"
+					}
+				],
+				searchCondition : {
+					name: "",
+					company: [
+						{key: "", text: ""},
+						{key: "CY", text:"CY"},
+						{key: "SAP", text:"SAP"}
+					],
+					devlang : [
+						{key: "", text: ""},
+						{key: "UI5", text:"UI5"},
+						{key: "ABAP", text:"ABAP"}
+					],
+					lang: [
+						{key: "", text: ""},
+						{key: "EN", text:"english"},
+						{key: "KR", text:"korean"}
+					]
+				}
+        	};
+        	var searchFilter = {
+					"name":"",
+					"lang": oModelData.searchCondition.lang[0].key,
+					"devlang": oModelData.searchCondition.devlang[0].key,
+					"company": oModelData.searchCondition.company[0].key
+				}
+			oView.setModel(new JSONModel(oModelData.cardData), "mockDataList");
+			oView.setModel(new JSONModel(oModelData.searchCondition), "searchModel");
+			oView.setModel(new JSONModel(searchFilter), "filterModel");
+			oView.setModel(new JSONModel({}), "cardListModel");
+			
+		},
+		
+        fnReturnColor : function(sStatus) {
+        	if(!sStatus) {
+    			return "Error";
+    		} else if(sStatus === "SV") {
+    			return "Success"
+    		}
+        }
+	});
+});

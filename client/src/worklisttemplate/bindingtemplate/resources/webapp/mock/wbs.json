@@ -1,0 +1,89 @@
+{
+	"PT_WBS": [{
+		"POSID": "",
+		"bpfIndex": 0,
+		"POST1": "initWBS"
+	}, {
+		"POSID": "IA160001",
+		"bpfIndex": 1,
+		"POST1": "Investment Project #1"
+	}, {
+		"POSID": "IA160001-0001",
+		"bpfIndex": 2,
+		"POST1": "Investment WBS #1"
+	}, {
+		"POSID": "IA160002",
+		"bpfIndex": 3,
+		"POST1": "Investment Project #2"
+	}, {
+		"POSID": "IA160002-0001",
+		"bpfIndex": 4,
+		"POST1": "Investment WBS #2"
+	}, {
+		"POSID": "IA160003",
+		"bpfIndex": 5,
+		"POST1": "Investment Project #3"
+	}, {
+		"POSID": "IA160003-0001",
+		"bpfIndex": 6,
+		"POST1": "Investment WBS #3"
+	}, {
+		"POSID": "IA160004",
+		"bpfIndex": 7,
+		"POST1": "Investment Project #4"
+	}, {
+		"POSID": "IA160004-0001",
+		"bpfIndex": 8,
+		"POST1": "Investment WBS #4"
+	}, {
+		"POSID": "IA160005",
+		"bpfIndex": 9,
+		"POST1": "Investment Project #5"
+	}, {
+		"POSID": "IA160005-0001",
+		"bpfIndex": 10,
+		"POST1": "Investment WBS #5"
+	}, {
+		"POSID": "IA160006",
+		"bpfIndex": 11,
+		"POST1": "Investment Project #6"
+	}, {
+		"POSID": "IA160006-0001",
+		"bpfIndex": 12,
+		"POST1": "Investment WBS #6"
+	}, {
+		"POSID": "IA160007",
+		"bpfIndex": 13,
+		"POST1": "Investment Project #7"
+	}, {
+		"POSID": "IA160007-0001",
+		"bpfIndex": 14,
+		"POST1": "Investment WBS #7"
+	}, {
+		"POSID": "IA160008",
+		"bpfIndex": 15,
+		"POST1": "Investment Project #8"
+	}, {
+		"POSID": "IA160008-0001",
+		"bpfIndex": 16,
+		"POST1": "Investment WBS #8"
+	}, {
+		"POSID": "IA160009",
+		"bpfIndex": 17,
+		"POST1": "Investment Project #9"
+	}, {
+		"POSID": "IA160009-0001",
+		"bpfIndex": 18,
+		"POST1": "Investment WBS #9"
+	}, {
+		"POSID": "IA160010",
+		"bpfIndex": 19,
+		"POST1": "Investment Project #10"
+	}, {
+		"POSID": "IA160010-0001",
+		"bpfIndex": 20,
+		"POST1": "Investment WBS #10"
+	}],
+	"isValidationSAPLogonTicket": true,
+	"RST_CD": "S"
+}
