@@ -57,7 +57,8 @@
 					"regExpErrMsg": "viewXML_model_parameters_name_validationError"
 				}
 			},
-			"panelDataList": ""
+			"importParameter": "",
+			"exportTableFieldName": ""
 		},
 		"forms": [{
 			"title": "",

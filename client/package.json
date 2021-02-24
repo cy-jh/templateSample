@@ -10,7 +10,8 @@
 	"devDependencies": {
 		"@sap-webide/webide-client-tools": "^2.2.0",
 		"eslint": "4.12.1",
-		"@sap/eslint-plugin-webide-feature": "1.3.22"
+		"@sap/eslint-plugin-webide-feature": "1.3.22",
+		"content-security-policy": "0.3.4"
 	},
 	"bundledPlugins": {
 		"worklisttemplate": "file:src/worklisttemplate"

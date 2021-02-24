@@ -11,7 +11,7 @@ define(["sap.watt.ideplatform.template/ui/wizard/WizardStepContent",
 			var oPageStepContent = this._createPageContent();
 			this.addContent(oPageStepContent);
 
-			this._registeHandleBarHBoxCount();
+			// this._registeHandleBarHBoxCount();
 		},
 		renderer: {},
 		onBeforeRendering: function () {
@@ -21,9 +21,36 @@ define(["sap.watt.ideplatform.template/ui/wizard/WizardStepContent",
              sap.watt.ideplatform.plugin.template.ui.wizard.WizardStepContent.prototype.onBeforeRendering.apply(this, arguments);
             }
             // Implement your logic here
-			// this.fireValidation({
-			// 	isValid: true
-			// });
+			this.fireValidation({
+				isValid: true
+			});
+			
+			// this.getParent()._nextButton.attachPress(function(oEvent) {
+			// 	var oModel = this.getModel();
+			// 	var sRfcName = oModel.getProperty("/rfcName");
+			// 	this.setBusy(true);
+				
+			// 	new Promise(function(resolve, reject) {
+			// 		$.ajax({
+			// 		    url: "https://vm-rndnpd.wdf.sap.corp:44320/fmcall/" + sRfcName + "?airlineid=LH&connectionid=2402&flightdate=20130128&format=json",
+			// 		    dataType: "jsonp",
+			// 		    success: function(data) {
+			// 		      resolve(data);
+			// 		    },
+			// 		    error: function(xhr) {
+			// 		      reject(xhr);
+			// 		    }
+			// 		});	
+			// 	}).then(function(reponse) {
+			// 		console.log("성공 - ", reponse);
+			// 		oModel.setProperty("/rfcReturnData", reponse.RETURN);
+			// 		that.setBusy(false);
+			// 	}, function(reponse) {
+			// 		console.log("Unknown RFC name", reponse);
+			// 		that.setBusy(false);
+			// 	});
+								
+			// }.bind(this));
 		},
 		
 		_validationCheck : function(oEvent) {
@@ -54,14 +81,52 @@ define(["sap.watt.ideplatform.template/ui/wizard/WizardStepContent",
 			
 			var oInputForRfcName = new sap.m.Input({
 				value : "{/rfcName}",
-				liveChange: function(oEvent) {
-					this._validationCheck(oEvent);
-				}.bind(this)
+				// liveChange: function(oEvent) {
+				// 	this._validationCheck(oEvent);
+				// }.bind(this)
 			})
+			
+			var oRfcCallButton = new sap.m.Button({
+				text : "조회",
+				press : function(oEvent) {
+					this.setBusy(true);
+					var oModel = this.getModel();
+					var sRfcName = oModel.getProperty("/rfcName");
+					new Promise(function(resolve, reject) {
+						$.ajax({
+						    url: "https://vm-rndnpd.wdf.sap.corp:44320/fmcall/" + sRfcName + "?airlineid=LH&connectionid=2402&flightdate=20130128&format=json",
+						    dataType: "jsonp",
+						    success: function(data) {
+						      resolve(data);
+						    },
+						    error: function(xhr) {
+						      reject(xhr);
+						    }
+						});
+					}).then(function(reponse) {
+						console.log("성공 - ", reponse);
+						sap.m.MessageBox.success("RFC 조회에 성공했습니다. Next버튼을 눌러 진행하세요.", {
+						    title: "Success",
+						});
+						oModel.setProperty("/rfcReturnData", reponse.RETURN);
+						this.setBusy(false);
+						this.fireValidation({
+							isValid: true
+						});
+					}.bind(this), function(reponse) {
+						console.log("Unknown RFC name", reponse);
+						sap.m.MessageBox.error("RFC를 찾을 수 없습니다.", {
+						    title: "Error",
+						});
+						this.setBusy(false);
+					}.bind(this));
+				}.bind(this)
+			});
 			
 			oRfcNameGrid
 			.addContent(oLabelForRfcName)
-			.addContent(oInputForRfcName);
+			.addContent(oInputForRfcName)
+			.addContent(oRfcCallButton);
 			
 			lVLayout.addContent(oRfcNameGrid);
 			// Form Grid

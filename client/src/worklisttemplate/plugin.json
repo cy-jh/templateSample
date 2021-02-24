@@ -72,7 +72,7 @@
                     "internalOnly": false,
                     "category": "SAP.Fiori.Application",
                     "wizardSteps": [
-                    	"PanelStep",
+                    	
                     	"HBoxStep",
                         "templateCustomizationStep"
                     ],

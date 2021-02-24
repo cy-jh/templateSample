@@ -1,87 +1,52 @@
 sap.ui.define([
+	"jquery.sap.global",
 	"sap/ui/core/mvc/Controller",
+	"{{basicSAPUI5ApplicationProject.parameters.namespace.value}}/{{projectName}}/model/models",
 	"sap/ui/model/json/JSONModel",
-	"sap/ui/core/Fragment"
-], function(Controller, JSONModel, Fragment) {
+	"sap/m/MessageToast",
+	"sap/ui/core/format/DateFormat",
+	"sap/ui/model/Filter",
+    "sap/ui/model/FilterOperator"
+], function (jQuery, Controller, models, JSONModel, MessageToast, DateFormat, Filter, FilterOperator) {
 	"use strict";
 
 	return Controller.extend("{{basicSAPUI5ApplicationProject.parameters.namespace.value}}.{{projectName}}.controller.{{basicSAPUI5ApplicationProject.parameters.name.value}}", {
-		onInit: function () {
-			this._modelSetting();
-		},
-
-{{#if basicSAPUI5ApplicationProject.parameters.popupYN}}
-		onOpenDialog : function() {
+		onInit : function() {
+        	var oView = this.getView();
+        	//oView.addStyleClass(this.getOwnerComponent().getContentDensityClass());
+        	this._initModel();
+        },
+        
+        onSearch : function() {
 			var oView = this.getView();
-
-			// create dialog lazily
-			if (!this.pDialog) {
-				this.pDialog = Fragment.load({
-					id: oView.getId(),
-					name: "{{basicSAPUI5ApplicationProject.parameters.namespace.value}}.{{projectName}}.view.fragment.{{popupName}}"
-				}).then(function (oDialog) {
-					// connect dialog to the root view of this component (models, lifecycle)
-					oView.addDependent(oDialog);
-					return oDialog;
-				});
-			} 
-			this.pDialog.then(function(oDialog) {
-				oDialog.open();
+			var oModel = oView.getModel();
+			var oImportParam = oModel.getProperty("/importParameter");
+			$.ajax({
+			    url: "https://vm-rndnpd.wdf.sap.corp:44320/fmcall/BAPI_FLIGHT_GETDETAIL?airlineid=" + oImportParam.AIRLINEID + "&connectionid=" + oImportParam.CONNECTIONID + "&flightdate=" + oImportParam.LFIGHTDATE + "&format=json",
+			    dataType: 'jsonp',
+			    success: function(data) {
+			      console.log('성공 - ', data);
+			      oModel.setProperty("/exportTableField" , data.RETURN);
+			    },
+			    error: function(xhr) {
+			      console.log('실패 - ', xhr);
+			    }
 			});
-		},
-{{/if}}
-		_modelSetting : function() {
-			var oPopupData = {
-				"ZRFC_ONE" : [
-					{
-						"col1" : "1",
-						"col2" : "A",
-						"col3" : "가",
-					},
-					{
-						"col1" : "2",
-						"col2" : "B",
-						"col3" : "나",
-					},
-					{
-						"col1" : "3",
-						"col2" : "C",
-						"col3" : "다",
-					},
-				],
-				"ZRFC_TWO" : [
-					{
-						"col1" : "1",
-						"col2" : "A",
-						"col3" : "가",
-						"col4" : "AA",
-						"col5" : "가가",
-					},
-					{
-						"col1" : "2",
-						"col2" : "B",
-						"col3" : "나",
-						"col4" : "BB",
-						"col5" : "나나",
-					},
-					{
-						"col1" : "3",
-						"col2" : "C",
-						"col3" : "다",
-						"col4" : "CC",
-						"col5" : "다다",
-					},
-					{
-						"col1" : "4",
-						"col2" : "D",
-						"col3" : "라",
-						"col4" : "DD",
-						"col5" : "라라",
-					}
-				]
-			};
-			var oModel = new JSONModel(oPopupData);
-			this.getView().setModel(oModel);
-		}
+
+        },
+        
+        _initModel : function() {
+        	var oView = this.getView();
+        	var oModel = new JSONModel({
+        		importParameter : {
+        		{{#each basicSAPUI5ApplicationProject.parameters.importParameter}}
+        			{{customImportParamModelHelper}}
+        		{{/each}}
+        		},
+        		
+        	});
+        	
+        	oView.setModel(oModel);
+        }
 	});
 });
